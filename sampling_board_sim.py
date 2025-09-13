@@ -128,12 +128,9 @@ def analog_switch(sampled_signal, t, clk, sample_mode, sample_times, sample_valu
 
     elif sample_mode == 'instantaneous':
         # La llave deja pasar solo un pulso breve en cada instante de muestreo
-        y[:] = 0
-        if len(sample_times) > 0:
-            # Encontrar el índice más cercano en t para cada sample_time
-            indices = np.searchsorted(t, sample_times)
-            indices = indices[indices < len(t)]
-            y[indices] = sample_values  # pulso instantáneo
+        return sampled_signal * (1-clk)
+    else:
+        return sampled_signal
 
     return y
 
