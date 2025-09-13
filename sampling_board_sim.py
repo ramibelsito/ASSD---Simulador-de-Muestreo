@@ -37,8 +37,6 @@ def make_clock(t, fs_sample, duty=0.5):
 def input_signal(t, kind='sine', f0=50.0):
     if kind == 'sine':
         return np.sin(2*np.pi*f0*t)
-    elif kind == 'sum_sines':
-        return 0.6*np.sin(2*np.pi*f0*t) + 0.4*np.sin(2*np.pi*(2*f0)*t*0.5)
     elif kind == 'square':
         return signal.square(2*np.pi*f0*t)
     elif kind == 'noise':
@@ -56,7 +54,7 @@ def butter_lowpass_filter(x, fs, cutoff, order=5):
     y = signal.filtfilt(b, a, x)
     return y
 '''
-def cauer_lowpass_filter(x, fs, cutoff, order=6, rp=1, rs=40):
+def cauer_lowpass_filter(x, fs, cutoff, order=6, rp=0.1, rs=40):
     """
     Filtro pasa-bajos Cauer (Elliptic).
     
@@ -197,7 +195,7 @@ class SamplingSimulator(QtWidgets.QMainWindow):
         # Input selection
         cl.addWidget(QtWidgets.QLabel("Input signal"))
         self.combo_input = QtWidgets.QComboBox()
-        self.combo_input.addItems(['sine', 'sum_sines', 'square', 'noise'])
+        self.combo_input.addItems(['sine', 'square', 'noise'])
         self.combo_input.currentTextChanged.connect(self.on_params_changed)
         cl.addWidget(self.combo_input)
 
