@@ -7,7 +7,7 @@ Stages:
  - Llave Analógica (analog switch) : gating the sampled signal with a pulse train
  - FR (reconstruction filter) : lowpass
 
-Author: ChatGPT (adapt and extend as needed)
+Authores: Rocco Gastaldi, Ramiro Belsito, Ignacio Sammartino, Ignacio Terra y Matias Minitti
 """
 
 import sys
