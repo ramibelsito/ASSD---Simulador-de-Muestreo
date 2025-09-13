@@ -25,6 +25,15 @@ def make_time_vector(duration_s, fs_plot):
     t = np.arange(0, duration_s, 1.0/fs_plot)
     return t
 
+def make_clock(t, fs_sample, duty=0.5):
+    """
+    Genera una señal de reloj rectangular (0/1).
+    """
+    Ts = 1.0 / fs_sample
+    clk = ((t % Ts) < duty * Ts).astype(float)
+    return clk
+
+
 def input_signal(t, kind='sine', f0=50.0):
     if kind == 'sine':
         return np.sin(2*np.pi*f0*t)
@@ -79,34 +88,10 @@ def cauer_lowpass_filter(x, fs, cutoff, order=6, rp=1, rs=40):
     y = signal.filtfilt(b, a, x)
     return y
 
-
-def sample_and_hold_track_hold(x, t, fs_sample, duty=0.5):
+def sample_and_hold_track_hold(x, t, clk):
     """
-    Track-and-Hold behavior:
-    - During clock high: output follows the input
-    - During clock low: output holds the last sampled value
-
-    Parameters:
-        x : np.ndarray
-            Input signal
-        t : np.ndarray
-            Time vector
-        fs_sample : float
-            Sampling frequency
-        duty : float
-            Clock duty cycle (0-1). Default 0.5 = half period high, half low
-
-    Returns:
-        y : np.ndarray
-            Output signal after sample-and-hold
-        sample_times : np.ndarray
-            Times when sampling occurred
-        sample_values : np.ndarray
-            Values sampled at those times
+    Track-and-Hold sincronizado con un reloj dado.
     """
-    Ts = 1.0 / fs_sample
-    clk = ((t % Ts) < duty * Ts).astype(float)  # clock waveform (1=high, 0=low)
-
     y = np.zeros_like(x)
     last_val = 0.0
     sample_times = []
@@ -116,24 +101,42 @@ def sample_and_hold_track_hold(x, t, fs_sample, duty=0.5):
         if clk[i] == 1:  # track mode
             last_val = x[i]
             y[i] = x[i]
-            # register sample at rising edge
-            if i > 0 and clk[i-1] == 0:
+            if i > 0 and clk[i-1] == 0:  # flanco ascendente
                 sample_times.append(t[i])
                 sample_values.append(last_val)
-        else:  # hold mode
+        else:  # hold
             y[i] = last_val
 
     return y, np.array(sample_times), np.array(sample_values)
 
-def analog_switch(sampled_signal, t, fs_sample, on_fraction=0.5):
-    # Simulate an analog switch that is closed for a fraction of the sampling period
-    Ts = 1.0/fs_sample
-    on_width = on_fraction * Ts
-    gate = np.zeros_like(t)
-    times = np.arange(0, t[-1]+Ts/2, Ts)
-    for st in times:
-        gate += (np.abs(t - st) <= (on_width/2)).astype(float)
-    return sampled_signal * (gate > 0)
+def analog_switch(sampled_signal, t, clk, sample_mode, sample_times, sample_values):
+    """
+    Implementa la llave analógica.
+    
+    sampled_signal : señal a la entrada de la llave (output del S&H)
+    t              : vector de tiempo
+    clk            : reloj (0/1)
+    sample_mode    : 'natural' o 'instantaneous'
+    sample_times   : instantes en los que se tomó muestra (de S&H)
+    sample_values  : valores muestreados en esos instantes
+    """
+    y = np.zeros_like(sampled_signal)
+
+    if sample_mode == 'natural':
+        # La llave deja pasar la señal mientras el reloj está en 1
+        y = sampled_signal * clk
+
+    elif sample_mode == 'instantaneous':
+        # La llave deja pasar solo un pulso breve en cada instante de muestreo
+        y[:] = 0
+        if len(sample_times) > 0:
+            # Encontrar el índice más cercano en t para cada sample_time
+            indices = np.searchsorted(t, sample_times)
+            indices = indices[indices < len(t)]
+            y[indices] = sample_values  # pulso instantáneo
+
+    return y
+
 
 def compute_spectrum(x, fs_plot):
     N = len(x)
@@ -316,52 +319,48 @@ class SamplingSimulator(QtWidgets.QMainWindow):
         self.stage_bypass['FR'] = self.chk_fr.isChecked()
 
     def update_processing_and_plot(self):
-        # read latest params
+        # leer últimos parámetros
         self.on_params_changed()
         self.on_bypass_changed()
 
-        # high-res time axis for plotting and processing
+        # eje de tiempo de alta resolución
         t = make_time_vector(self.duration, self.fs_plot)
 
-        # Input
+        # señal de entrada
         x_in = input_signal(t, kind=self.input_kind, f0=self.input_f)
 
-        # FAA (anti-aliasing) - lowpass before sampling (unless bypass)
+        # FAA (filtro anti-aliasing)
         if self.stage_bypass['FAA']:
             x_aa = x_in.copy()
         else:
             x_aa = cauer_lowpass_filter(x_in, self.fs_plot, self.aa_cutoff, order=6)
 
-        # Sampling: S&H
+        # generar clock
+        clk = make_clock(t, self.fs_sample, duty=0.5)
+
+        # Sample & Hold
         if self.stage_bypass['S&H']:
-            # no sampling (pass-through)
             sampled_signal = x_aa.copy()
             sample_times = np.array([])
             sample_values = np.array([])
-        if self.stage_bypass['S&H']:
-            sampled_signal = x_aa.copy()
-            sample_times, sample_values = np.array([]), np.array([])
         else:
             sampled_signal, sample_times, sample_values = sample_and_hold_track_hold(
-            x_aa, t, self.fs_sample, duty=0.5  # adjust duty cycle if needed
-    )
-
-
-        # Llave (analog switch)
+                x_aa, t, clk
+            )
+        # Llave analógica
         if self.stage_bypass['Llave']:
             after_llave = sampled_signal.copy()
         else:
-            after_llave = analog_switch(sampled_signal, t, self.fs_sample, on_fraction=self.llave_on_frac)
+            after_llave = analog_switch(sampled_signal, t, clk, self.sample_mode,
+                                        sample_times, sample_values)
 
-        # FR (reconstruction)
+        # Filtro de reconstrucción
         if self.stage_bypass['FR']:
             x_recon = after_llave.copy()
         else:
-            # lowpass to smooth pulses; reconstruct approximate analog
-            # choose smoothing cutoff (user sets fr_cutoff)
             x_recon = cauer_lowpass_filter(after_llave, self.fs_plot, self.fr_cutoff, order=6)
 
-        # Cache nodes
+        # Cachear nodos
         self.cache = {
             't': t,
             'Input': x_in,
@@ -374,7 +373,7 @@ class SamplingSimulator(QtWidgets.QMainWindow):
             'fs_plot': self.fs_plot
         }
 
-        # Update plots
+        # actualizar plots
         self.update_plots_from_cache()
 
     def update_plots_from_cache(self, _=None):
