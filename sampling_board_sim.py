@@ -175,7 +175,7 @@ class SamplingSimulator(QtWidgets.QMainWindow):
             'FR': False
         }
         self.sample_mode = 'natural'  # 'natural' or 'instantaneous'
-
+        self.duty = 0.5   # duty cycle por defecto (50%)
         # Build UI
         self._build_ui()
 
@@ -258,6 +258,14 @@ class SamplingSimulator(QtWidgets.QMainWindow):
         self.chk_fr.stateChanged.connect(self.on_bypass_changed)
         cl.addWidget(self.chk_fr)
 
+        cl.addWidget(QtWidgets.QLabel("Duty cycle (%)"))
+        self.slider_duty = QtWidgets.QSlider(QtCore.Qt.Horizontal)
+        self.slider_duty.setRange(1, 99)  # evitar duty 0 y 100
+        self.slider_duty.setValue(int(self.duty * 100))
+        self.slider_duty.valueChanged.connect(self.on_duty_changed)
+        cl.addWidget(self.slider_duty)
+
+
         btn_update = QtWidgets.QPushButton("Update & Plot")
         btn_update.clicked.connect(self.update_processing_and_plot)
         cl.addWidget(btn_update)
@@ -298,6 +306,11 @@ class SamplingSimulator(QtWidgets.QMainWindow):
         self.aa_cutoff = float(self.spin_aa.value())
         self.fr_cutoff = float(self.spin_fr.value())
         self.sample_mode = self.combo_mode.currentText()
+    
+    def on_duty_changed(self, value):
+        self.duty = value / 100.0
+        self.update_processing_and_plot()
+
 
     def on_bypass_changed(self, _=None):
         self.stage_bypass['FAA'] = self.chk_ffa.isChecked()
@@ -323,7 +336,7 @@ class SamplingSimulator(QtWidgets.QMainWindow):
             x_aa = cauer_lowpass_filter(x_in, self.fs_plot, self.aa_cutoff, order=6)
 
         # generar clock
-        clk = make_clock(t, self.fs_sample, duty=0.5)
+        clk = make_clock(t, self.fs_sample, duty=self.duty)
 
         # Sample & Hold
         if self.stage_bypass['S&H']:
