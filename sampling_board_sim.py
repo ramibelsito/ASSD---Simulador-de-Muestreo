@@ -42,6 +42,8 @@ def input_signal(t, kind='sine', f0=50.0):
     elif kind == 'noise':
         rng = np.random.RandomState(0)
         return rng.normal(scale=0.5, size=t.shape)
+    elif kind == 'triangle':
+        return signal.sawtooth(2*np.pi*f0*t, width=0.5)
     else:
         return np.zeros_like(t)
 '''
@@ -195,7 +197,7 @@ class SamplingSimulator(QtWidgets.QMainWindow):
         # Input selection
         cl.addWidget(QtWidgets.QLabel("Input signal"))
         self.combo_input = QtWidgets.QComboBox()
-        self.combo_input.addItems(['sine', 'square', 'noise'])
+        self.combo_input.addItems(['sine', 'square', 'triangle', 'noise'])
         self.combo_input.currentTextChanged.connect(self.on_params_changed)
         cl.addWidget(self.combo_input)
 
