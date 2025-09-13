@@ -175,7 +175,6 @@ class SamplingSimulator(QtWidgets.QMainWindow):
             'FR': False
         }
         self.sample_mode = 'natural'  # 'natural' or 'instantaneous'
-        self.llave_on_frac = 0.9
 
         # Build UI
         self._build_ui()
@@ -259,14 +258,6 @@ class SamplingSimulator(QtWidgets.QMainWindow):
         self.chk_fr.stateChanged.connect(self.on_bypass_changed)
         cl.addWidget(self.chk_fr)
 
-        cl.addWidget(QtWidgets.QLabel("Llave ON fraction (0-1)"))
-        self.spin_llave = QtWidgets.QDoubleSpinBox()
-        self.spin_llave.setRange(0.0, 1.0)
-        self.spin_llave.setSingleStep(0.05)
-        self.spin_llave.setValue(self.llave_on_frac)
-        self.spin_llave.valueChanged.connect(self.on_params_changed)
-        cl.addWidget(self.spin_llave)
-
         btn_update = QtWidgets.QPushButton("Update & Plot")
         btn_update.clicked.connect(self.update_processing_and_plot)
         cl.addWidget(btn_update)
@@ -307,7 +298,6 @@ class SamplingSimulator(QtWidgets.QMainWindow):
         self.aa_cutoff = float(self.spin_aa.value())
         self.fr_cutoff = float(self.spin_fr.value())
         self.sample_mode = self.combo_mode.currentText()
-        self.llave_on_frac = float(self.spin_llave.value())
 
     def on_bypass_changed(self, _=None):
         self.stage_bypass['FAA'] = self.chk_ffa.isChecked()
