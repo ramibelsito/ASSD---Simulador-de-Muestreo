@@ -1,0 +1,36 @@
+\input{Preambulo/Variables}
+
+\begin{titlepage}
+    \begin{figure}[t!]
+    \centering
+    \includegraphics[scale=0.1]{Imagenes/LOGO ITBA.png}
+    \end{figure}
+    
+    \centering
+    %{\Large{Trabajo Practico N° 3}\par}
+    %\vspace{0.25cm}
+    {\large{\the\materia}\par}
+    \vspace{0.3cm}
+    {\bfseries\Huge{\the\titulo}\par}
+    \vspace{0.5cm}
+    {\huge{\the\nombreTP}\par}
+    \vspace{.5cm}
+    {\large{\the\grupo}\par}
+    \vspace{2cm}
+    {\large{ \slshape
+    \begin{tabbing}
+
+        \the\nomEstudianteA \quad\quad\quad\= \the\legajoEstudianteA \quad\quad\= \href{mailto:	\the\mailEstudianteA}{\texttt{\the\mailEstudianteA}} \\
+        \\
+        \the\nomEstudianteB \> \the\legajoEstudianteB \> \href{mailto:	\the\mailEstudianteA}{\texttt{\the\mailEstudianteB}} 
+        %\the\nomEstudianteC \> \the\legajoEstudianteC \> \href{mailto:	\the\mailEstudianteA}{\texttt{\the\mailEstudianteC}}
+        %\the\nomEstudianteD \> \the\legajoEstudianteD \> \href{mailto:	\the\mailEstudianteA}{\texttt{\the\mailEstudianteD}}
+
+    \end{tabbing}
+    }\par}
+ 
+    \vspace{4cm}
+    {\large{Profesores: \the\profesores}\par}
+    {\large{Fecha de entrega: \the\dia \space de \the\mes \space de \the\ano}\par}
+    
+\end{titlepage}

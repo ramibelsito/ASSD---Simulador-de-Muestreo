@@ -1,0 +1,133 @@
+% -------- TABLAS ---------------
+\subsection{Tablas}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l|c|c} \hline
+     Columna 0 & Columna 1 & Columna 2  \\ \hline
+    0 & 1 & 2  \\ 
+    0 & 1 & 2 \\ \hline
+    \end{tabular}
+    \caption{Pie de tabla}
+    \label{tab:tabla simple}
+\end{table}
+
+
+
+% ---------- FOTOS --------------
+\subsection{Fotos}
+% 1. Simple
+\subsubsection{Foto Simple}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{example-image}
+    \caption{Foto simple}
+    \label{fig:foto simple}
+\end{figure}
+
+% 2. Varias horizontales
+\subsubsection{Fotos Horizontales}
+\begin{figure}[H]
+    \subfigure[Foto 1]{
+    \includegraphics[width=0.3\textwidth]{example-image}}
+    \subfigure[Foto 2]{
+    \includegraphics[width = 0.3\textwidth]{example-image}}
+    \subfigure[Foto 3]{
+    \includegraphics[width = 0.3\textwidth]{example-image}}
+    \label{fig:multi Fotos}
+\end{figure}
+
+% 3. Varias verticales
+\subsubsection{Fotos Verticales}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{example-image}
+    \includegraphics[width=0.5\linewidth]{example-image}
+    \caption{2 fotos verticales}
+    \label{fig:fotos verticales}
+\end{figure}
+
+% 4. Grilla de Fotos
+\subsubsection{Fotos en grilla}
+\begin{figure}[H]
+        \subfloat[Caption 1]{
+            \includegraphics[width=.48\linewidth]{example-image}
+            \label{subfig:a}
+        }\hfill
+        \subfloat[Caption 2]{
+            \includegraphics[width=.48\linewidth]{example-image}
+            \label{subfig:b}
+        }\\
+        \subfloat[Caption 3]{
+            \includegraphics[width=.48\linewidth]{example-image}
+            \label{subfig:c}
+        }\hfill
+        \subfloat[Caption 4]{
+            \includegraphics[width=.48\linewidth]{example-image}
+            \label{subfig:d}
+        }
+        \caption{Caption}
+        \label{fig: grilla de fotos}
+    \end{figure}
+
+% -------------- Texto en dos columnas -------------
+\subsection{Texto en Columnas}
+\setlength{\columnsep}{1cm}
+\begin{multicols}{2}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique aliquam sapien pellentesque viverra. Proin in ex libero. Etiam cursus et metus ut porttitor. Nunc sit amet rhoncus velit. Nunc eu pharetra sapien. In ultricies tellus a sapien placerat, quis commodo sem consequat. Sed non felis sagittis, maximus felis dictum, scelerisque eros. Nunc in aliquet lacus. Ut consectetur odio purus. Integer sed erat quis mi vulputate molestie. Etiam viverra sapien tincidunt turpis pulvinar blandit. Nullam pharetra bibendum ligula, vitae dictum est sagittis ut. Suspendisse convallis commodo diam at elementum.
+\end{multicols}
+
+% ------------ Ecuaciones -----------------------
+
+% Sistema de ecuaciones
+\subsection{Ecuaciones}
+\begin{equation}
+    \begin{cases}
+        2x+y=1 \\
+        y+2=3
+    \end{cases} \longrightarrow x=0 \wedge y=1
+\end{equation} 
+
+
+% Ecuaciones alineadas
+\begin{equation}
+    \begin{gathered}
+        H(s) = \frac{1}{\frac{1}{sRC}} \\
+        H(s)= sRC
+    \end{gathered}
+\end{equation}
+
+% Ecuaciones alineadas por el igual
+\begin{equation}
+    \begin{split}
+        H(s) &= \frac{1}{\frac{1}{sRC}} \\
+             &= sRC
+    \end{split}
+\end{equation}
+
+
+
+% Ecuaciones sin número
+$$H(s)= sRC$$
+
+
+
+
+% ---------------- Citas y Links -----------------
+\subsection{Citas y Links}
+
+Dirac dijo esto. \cite{dirac}
+
+\href{http://www.overleaf.com}{Esto tiene un hipervínculo}
+
+
+% ----------------- Bloque de código -------------------
+\subsection{Código}
+\begin{lstlisting}
+# Bloque de codigo
+...
+...
+print('Hello World!)
+\end{lstlisting}
+
+
+

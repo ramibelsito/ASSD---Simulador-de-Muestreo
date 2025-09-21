@@ -1,0 +1,77 @@
+\documentclass[11pt]{article}
+\input{Preambulo/paquetes}
+
+% ------- Creacion de la funcion subsubsubsection -----%
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+
+\newcommand{\subsubsubsection}[1]{%
+  \refstepcounter{subsubsubsection}%
+  {\par\vspace{1ex}%
+   \noindent\small\textit{\thesubsubsubsection\hspace{1em}#1}\par\vspace{1ex}}%
+  \addcontentsline{toc}{subsubsubsection}{\thesubsubsubsection\hspace{1em}#1}%
+}
+
+\makeatletter
+\newcommand{\l@subsubsubsection}{\@dottedtocline{4}{7em}{4em}}
+\makeatother
+%---------------- INICIO DEL DOCUMENTO ----------------%
+\begin{document}
+\input{Preambulo/Variables}
+%-------------------- PORTADA --------------------%
+\input{Preambulo/portada}
+\newpage
+
+%-------------------- INDICES --------------------%
+\newpage
+\pagestyle{empty}
+\renewcommand{\contentsname}{{\huge Índice}}
+\setcounter{tocdepth}{4} % Mostrar hasta subsubsubsection
+\tableofcontents
+%---------------- DESARROLLO ----------------%
+\lhead{\the\materia}
+\chead{\includegraphics[scale=0.02]{Imagenes/LOGO ITBA.png}}
+\rhead{\the\grupo}
+
+%---------------- Info de Pagina ----------------%
+\newpage
+\pagestyle{fancy} %activa encabezado y pie de pagina
+
+\setcounter{page}{1} %empezar numeración desde está pagina
+\setcounter{equation}{0} %empezar numeración desde 1 para ecuaciones
+\setcounter{figure}{0} %empezar numeración desde 1 para figuras
+\setcounter{table}{0} %empezar numeración desde 1 para tablas
+
+%---------------- Introducción ---------------%
+\section{Introducción}
+\input{Secciones/introducción.tex}
+
+%---------------- 1ra Seccion ----------------%
+\section{Cálculo Analítico}
+\input{Secciones/seccion1}
+
+%---------------- 2da Seccion ----------------%
+\section{Medición Práctica}
+\input{Secciones/seccion2}
+
+%---------------- 3da Seccion ----------------%
+\section{Simulaciones}
+\input{Secciones/seccion3}
+
+%----------------- Conclusión ----------------%
+\section{Conclusión}
+\input{Secciones/conclusion.tex}
+
+%---------------- Anexo ----------------%
+\section{Anexo}
+\input{Secciones/anexo}
+
+%---------------- Bibliografía ----------------%
+\printbibliography
+
+%---------------- Componentes ----------------%
+%\newpage
+%\section{Templates}
+%\input{Templates/Componentes}
+
+\end{document}

@@ -1,0 +1,106 @@
+%--------------------BLOQUE DE FORMATO--------------------%
+\usepackage[a4paper,includehead,includefoot, left=2cm,top=1.2cm,right=2cm,bottom=1.5cm,headheight=25pt]{geometry} %margenes.
+%--------------------FIN DE BLOQUE DE FORMATO--------------------%
+
+%--------------------CONFIGURACION DE IDIOMA--------------------%
+\usepackage[spanish,es-tabla]{babel} % pone el idioma en español, es-tabla para Tabla en lugar de Cuadro
+\usepackage[utf8]{inputenc} % Codificación de entrada, carácteres acentuados, ñ
+\usepackage[T1]{fontenc} % Codificación de fuente, habilita caracteres no latinos
+\usepackage{lmodern} % Fuente compatible
+%--------------------FIN DE CONFIGURACION DE IDIOMA--------------------%
+
+%-----------------PAQUETES NUESTROS-----------------------%
+\usepackage[backend=biber,style=ieee]{biblatex} %agrega bibliografía al documento
+\usepackage[center]{caption} %permite modificar el formato de los caption para tablas/figuras
+\usepackage[colorlinks=false,linkcolor=black]{hyperref} %pone vinculos en el indice y en las referencias
+\usepackage{adjustbox}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}  %para ecuaciones
+\usepackage{array} %permite escribir en columnas sin ser una tabla, por ejemplo, matrices
+\usepackage{bm} %permite usar simbolos matematicos en negrita
+\usepackage{bookmark}
+\usepackage{booktabs} %modificación de las lineas en las tablas
+\usepackage{cancel} %permite tachar terminos en ecuaciones
+\usepackage{chemfig} %permite realizar representaciones en 2D de estructuras químicas
+\usepackage{circuitikz}
+\usepackage{comment} %para comentar grandes partes de codigo, usar \begin{comment}
+\usepackage{csquotes}
+\usepackage{dsfont} %letras mayúsculas para conjuntos (Ej: Naturales)
+\usepackage{enumerate} %permite hacer listas numeradas y por niveles
+\usepackage{etoolbox} %crea condicionales, puedo tener dos PDFs distintos desde un solo archivo fuente
+\usepackage{fancyhdr} % Modificar encabezados y pies de paginas.
+\usepackage{float} %para el float H en tablas.
+\usepackage{graphicx} %para insertar graficos e imagenes.
+\usepackage{lipsum} %introduce bloques de texto random, usado para tests
+\usepackage{listings} %para ingresar codigos de MATLAB, Python, Fortran, etc
+\usepackage{mathrsfs} %letras mayúsculas especiales, cursiva, gotica, etc
+\usepackage{microtype} %subliminal refinements towards typographical perfection
+\usepackage{multicol}
+\usepackage{multirow} %filas múltiples en tablas
+\usepackage{nicefrac} %Permite escribir fracciones en el medio del texto de una forma elegante \nicefrac{a}{b}
+\usepackage{parskip} %modificación de sangría
+\usepackage{setspace} %permite cambiar espacio entre lineas
+\usepackage{stackrel} %Permite escribir cosas arriba o abajo de otras, \stackrel[lo de abajo] {lo de arriba}{lo del medio}
+\usepackage{steinmetz} %mejora la forma de escribir numeros complejos
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{titlesec} %modifición de secciones
+\usepackage{wrapfig}
+\usepackage{xcolor} %permite escribir texto en color
+
+%-------------------- Bibliografía --------------------%
+\usepackage[backend=biber,style=ieee]{biblatex} %agrega bibliografía al documento
+\addbibresource{Preambulo/Bibliografia.bib}
+
+%--------------------Titulos y enumeración de secciones--------------------%
+%titulos de secciones y subsecciones.
+\titleformat{\section}[hang]{\normalfont\bfseries}{\thesection}{5pt.}{} %modificación secciones.
+\titleformat{\subsection}[hang]{\normalfont\bfseries\raggedright}{\thesubsection}{5pt}{} %modificación subsecciones.
+\titleformat{\subsubsection}[hang]{\normalfont\itshape}{\thesubsubsection}{5pt}{} %modificación subsecciones.
+%\titleformat{\subsubsection}[hang]{\itshape}{Section \thesubsubsection}{}{\hspace{1cm} $\bullet$ \hspace{0.1cm}}[] %modificación subsecciones.
+
+%enumeración de secciones y subsecciones.
+\renewcommand{\labelenumi}{\arabic{section}.\arabic{enumi}}
+\renewcommand{\labelenumii}{\arabic{section}.\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{section}.\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+\renewcommand{\labelenumiv}{\arabic{section}.\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+
+\renewcommand{\thefigure}{\arabic{section}.\arabic{figure}}  %definición enumeración de figuras.
+
+\captionsetup[subfigure]{subrefformat=simple,labelformat=simple}
+\renewcommand{\thesubfigure}{(\alph{subfigure})} %modificación enumeración de subfiguras.
+
+\renewcommand{\thetable}{\arabic{section}.\arabic{table}} %definición enumeración de tablas.
+
+\setcounter{tocdepth}{2} %hasta que nivel aparece en el índice
+\setcounter{secnumdepth}{3} %hasta que nivel se enumera
+%niveles 1:section, 2:subsection, 3:subsubsection...
+
+%--------------------CONFIGURACION LISTING--------------------%
+\usepackage[scaled=0.85]{beramono}            % load a nice TT font
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+%--------------------FIN CONFIGURACION LISTING--------------------%

@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {section}{\numberline {2}Cálculo Analítico}{1}{section.2}%
+\contentsline {section}{\numberline {3}Medición Práctica}{1}{section.3}%
+\contentsline {section}{\numberline {4}Simulaciones}{1}{section.4}%
+\contentsline {section}{\numberline {5}Conclusión}{1}{section.5}%
+\contentsline {section}{\numberline {6}Anexo}{1}{section.6}%
