@@ -1,0 +1,61 @@
+\section*{Modelado del ZOH (Sample \& Hold)}
+
+\subsection*{Respuesta impulsiva del ZOH}
+La respuesta al aplicar un impulso $\delta(t)$ a un bloque ZOH es un pulso rectangular de ancho $T$:
+\[
+h_{ZOH}(t) =
+\begin{cases}
+1, & 0 \leq t < T \\
+0, & \text{caso contrario}
+\end{cases}
+\]
+
+\subsection*{Salida ante un tren de impulsos}
+Si la entrada es una señal muestreada mediante un tren de impulsos $x^*(t)$, la salida es
+\[
+y(t) = x^*(t) \otimes h_{ZOH}(t)
+\]
+donde $\otimes$ denota convolución.
+
+\subsection*{Espectro}
+En frecuencia:
+\[
+Y(\omega) = X^*(\omega) \cdot H_{ZOH}(\omega)
+\]
+
+\subsection*{Espectro de la señal muestreada}
+La transformada de Fourier del tren de impulsos es
+\[
+X^*(\omega) = \frac{1}{T} \sum_{m=-\infty}^{\infty} X(\omega - m\omega_s),
+\]
+con $\omega_s = \tfrac{2\pi}{T}$.
+
+\subsection*{Respuesta en frecuencia del ZOH}
+La transformada de Fourier de $h_{ZOH}(t)$ es
+\[
+H_{ZOH}(\omega) = \int_{0}^{T} e^{-j \omega t} dt 
+= \frac{1 - e^{-j\omega T}}{j\omega}
+= T \, e^{-j \omega T/2} \, \mathrm{sinc}\!\left(\frac{\omega T}{2}\right).
+\]
+
+\subsection*{Espectro de salida}
+Por lo tanto,
+\[
+Y(\omega) =
+\left[
+\frac{1}{T} \sum_{m=-\infty}^{\infty} X(\omega - m\omega_s)
+\right]
+\cdot
+\Bigg\{ T \, \mathrm{sinc}\!\left(\frac{\omega T}{2}\right) \Bigg\}.
+\]
+
+\subsection*{Propiedades}
+\begin{itemize}
+    \item Los ceros de $H_{ZOH}(\omega)$ ocurren cuando
+    \[
+    \mathrm{sinc}\!\left(\frac{\omega T}{2}\right) = 0
+    \quad \Longrightarrow \quad
+    \omega = k \frac{2\pi}{T}, \quad k = \pm 1, \pm 2, \dots
+    \]
+    \item El espectro resultante consiste en réplicas de $X(\omega)$, moduladas por la envolvente $\mathrm{sinc}\!\left(\tfrac{\omega T}{2}\right)$ y un desfase lineal $e^{-j\omega T/2}$.
+\end{itemize}
