@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1758502202 "main.bcf" "main.bbl" "main" 1758502216
-  "main.bcf" 1758502216 106347 f20ffb784ba407f5e51fc6d49021ce74 "pdflatex"
+["biber main"] 1758502202 "main.bcf" "main.bbl" "main" 1758510250
+  "main.bcf" 1758510250 106347 f20ffb784ba407f5e51fc6d49021ce74 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1758502215 "/home/rami/ASSD/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758502216
+["pdflatex"] 1758510248 "/home/rami/ASSD/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758510250
   "/etc/texmf/web2c/texmf.cnf" 1695304429 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/rami/ASSD/ASSD---Simulador-de-Muestreo/Informe/main.tex" 1758501962 2514 e669a5b275e72e6c155492d0472c303f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -259,7 +259,7 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1695304445 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1713892938 2799830 dd1064345d24d651deb48cdeb11abbcb ""
   "Imagenes/LOGO ITBA.png" 1758497308 90169 637f5917a67b69fc1ccd7ffe278dc788 ""
-  "Preambulo/Variables.tex" 1758502215 1102 4cb6da4f9e0135d4a52b4a30192b0545 ""
+  "Preambulo/Variables.tex" 1758510248 1115 70ffda6121b5911cd2fc9fa8e922af67 ""
   "Preambulo/paquetes.tex" 1758497573 5721 650c4d59bc3ef556d16f4dfc50da2a96 ""
   "Preambulo/portada.tex" 1758502187 1359 6bb7105ae6e9b6cbd63653da798eaf63 ""
   "Secciones/anexo.tex" 1758498644 0 d41d8cd98f00b204e9800998ecf8427e ""
@@ -270,11 +270,11 @@
   "Secciones/seccion3.tex" 1758498627 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/seccion4.tex" 1758501408 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/seccion5.tex" 1758501418 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.aux" 1758502216 3689 8e97bf83680d075ea44095334f786935 "pdflatex"
+  "main.aux" 1758510250 3689 8e97bf83680d075ea44095334f786935 "pdflatex"
   "main.bbl" 1758502203 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.run.xml" 1758502216 2414 d1b2afdee5e2e8eb5111a4e16fda2e2c "pdflatex"
+  "main.run.xml" 1758510250 2414 d1b2afdee5e2e8eb5111a4e16fda2e2c "pdflatex"
   "main.tex" 1758501962 2514 e669a5b275e72e6c155492d0472c303f ""
-  "main.toc" 1758502216 593 5ccaad532c560fdb1bb8b8c37fdf862f "pdflatex"
+  "main.toc" 1758510250 593 5ccaad532c560fdb1bb8b8c37fdf862f "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
