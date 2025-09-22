@@ -1,0 +1,9 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {section}{\numberline {2}Marco Teórico}{1}{section.2}%
+\contentsline {section}{\numberline {3}Circuito de Muestreo}{1}{section.3}%
+\contentsline {section}{\numberline {4}Filtros Pasa Bajos}{1}{section.4}%
+\contentsline {section}{\numberline {5}Simulaciones}{1}{section.5}%
+\contentsline {section}{\numberline {6}Simulaciones en Python}{1}{section.6}%
+\contentsline {section}{\numberline {7}Conclusión}{1}{section.7}%
+\contentsline {section}{\numberline {8}Anexo}{1}{section.8}%
