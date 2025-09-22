@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.23)  21 SEP 2025 21:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.23)  21 SEP 2025 21:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1330,6 +1330,9 @@ Couldn't patch \ttl@straight@ii
 \nomEstudianteD=\toks78
 \legajoEstudianteD=\toks79
 \mailEstudianteD=\toks80
+\nomEstudianteE=\toks81
+\legajoEstudianteE=\toks82
+\mailEstudianteE=\toks83
 ) (./Preambulo/portada.tex (./Preambulo/Variables.tex)
 <Imagenes/LOGO ITBA.png, id=7, 2350.7825pt x 1154.3125pt>
 File: Imagenes/LOGO ITBA.png Graphic file (type png)
@@ -1397,18 +1400,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52844 strings out of 478287
- 1149087 string characters out of 5849289
+ 52847 strings out of 478287
+ 1149133 string characters out of 5849289
  2202492 words of memory out of 5000000
- 70265 multiletter control sequences out of 15000+600000
+ 70268 multiletter control sequences out of 15000+600000
  494327 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,15n,106p,1198b,1914s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb>
-Output written on main.pdf (3 pages, 215493 bytes).
+Output written on main.pdf (3 pages, 216591 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
  16978 words of extra memory for PDF output out of 17280 (max. 10000000)
 
