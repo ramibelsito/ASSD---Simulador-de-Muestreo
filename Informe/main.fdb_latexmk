@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1758501875 "main.bcf" "main.bbl" "main" 1758501972
-  "main.bcf" 1758501972 106347 f20ffb784ba407f5e51fc6d49021ce74 "pdflatex"
+["biber main"] 1758501875 "main.bcf" "main.bbl" "main" 1758501977
+  "main.bcf" 1758501977 106347 f20ffb784ba407f5e51fc6d49021ce74 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1758501971 "/home/rami/ASSD/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758501972
+["pdflatex"] 1758501976 "/home/rami/ASSD/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758501977
   "/etc/texmf/web2c/texmf.cnf" 1695304429 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/rami/ASSD/ASSD---Simulador-de-Muestreo/Informe/main.tex" 1758501962 2514 e669a5b275e72e6c155492d0472c303f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -265,16 +265,16 @@
   "Secciones/anexo.tex" 1758498644 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/conclusion.tex" 1758498647 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/introducción.tex" 1758500421 661 93b1dfffcea348ec6bd76f36f1f9aad2 ""
-  "Secciones/seccion1.tex" 1758501970 6 5bc8c567a89112d5f408a8af4f17970d ""
+  "Secciones/seccion1.tex" 1758501975 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/seccion2.tex" 1758498624 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/seccion3.tex" 1758498627 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/seccion4.tex" 1758501408 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/seccion5.tex" 1758501418 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.aux" 1758501972 3689 8e97bf83680d075ea44095334f786935 "pdflatex"
+  "main.aux" 1758501977 3689 8e97bf83680d075ea44095334f786935 "pdflatex"
   "main.bbl" 1758501876 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.run.xml" 1758501972 2414 d1b2afdee5e2e8eb5111a4e16fda2e2c "pdflatex"
+  "main.run.xml" 1758501977 2414 d1b2afdee5e2e8eb5111a4e16fda2e2c "pdflatex"
   "main.tex" 1758501962 2514 e669a5b275e72e6c155492d0472c303f ""
-  "main.toc" 1758501972 593 5ccaad532c560fdb1bb8b8c37fdf862f "pdflatex"
+  "main.toc" 1758501977 593 5ccaad532c560fdb1bb8b8c37fdf862f "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
