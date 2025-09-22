@@ -1,5 +1,6 @@
 \documentclass[11pt]{article}
 \input{Preambulo/paquetes}
+\usepackage{subcaption}
 
 % ------- Creacion de la funcion subsubsubsection -----%
 \newcounter{subsubsubsection}[subsubsection]
@@ -47,16 +48,23 @@
 \input{Secciones/introducción.tex}
 
 %---------------- 1ra Seccion ----------------%
-\section{Cálculo Analítico}
-\input{Secciones/seccion1}
+\section{Marco Teórico}
+\input{Secciones/seccion1.tex}
 
 %---------------- 2da Seccion ----------------%
-\section{Medición Práctica}
-\input{Secciones/seccion2}
+\section{Circuito de Muestreo}
+\input{Secciones/seccion2.tex}
 
 %---------------- 3da Seccion ----------------%
+\section{Filtros Pasa Bajos}
+\input{Secciones/seccion3.tex}
+%---------------- 4ta Seccion ----------------%
 \section{Simulaciones}
-\input{Secciones/seccion3}
+\input{Secciones/seccion4.tex}
+
+%---------------- 5ta Seccion ----------------%
+\section{Simulaciones en Python}
+\input{Secciones/seccion5.tex}
 
 %----------------- Conclusión ----------------%
 \section{Conclusión}
