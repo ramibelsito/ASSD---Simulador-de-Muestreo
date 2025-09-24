@@ -54,53 +54,121 @@ Este modelo no es realizable en la práctica, ya que no existen impulsos de dura
 
 \subsubsection{Muestreo Natural}
 El muestreo natural consiste en permitir el paso de la señal durante un intervalo finito de tiempo $\tau$, repitiendo este proceso cada $T_s$. Matemáticamente, se describe como:
+En el muestreo natural, a diferencia del muestreo ideal, la señal de entrada $x(t)$ no se multiplica 
+por un tren de impulsos de Dirac, sino por un tren de pulsos rectangulares de ancho $\tau$. 
+De esta manera, la señal muestreada se obtiene como:
 
 \begin{equation}
-    x_{sn}(t) = x(t) \cdot p_T(t),
+    x_n(t) = x(t) \cdot p_T(t),
 \end{equation}
 
-donde $p_T(t)$ es un tren de pulsos rectangulares de ancho $\tau$ y período $T_s$.  
-En frecuencia, el espectro resultante es:
+donde $p_T(t)$ es un tren de pulsos rectangulares de período $T_s$ y ancho $\tau$.
+
+\bigskip
+
+En el dominio de la frecuencia, la multiplicación en el tiempo se transforma en una convolución:
 
 \begin{equation}
-    X_{sn}(f) = X(f) * P_T(f),
+    X_n(\omega) = \frac{1}{2\pi} \, X(\omega) \otimes P_T(\omega),
 \end{equation}
 
-con $*$ denotando la convolución y $P_T(f)$ dado por:
+donde $P_T(\omega)$ es el espectro del tren de pulsos periódicos. 
+
+\bigskip
+
+El espectro del tren de pulsos se puede expresar como una serie de impulsos modulados por una función
+$\mathrm{sinc}$:
 
 \begin{equation}
-    P_T(f) = \frac{\tau}{T_s} \sum_{n=-\infty}^{\infty} \text{sinc}(f\tau)\,\delta(f-nf_s).
+    P_T(\omega) = 2\pi\frac{\tau}{T_s} \sum_{n=-\infty}^{\infty} 
+    \mathrm{sinc}\!\left(\frac{n\omega_s \tau}{2}\right) \, \delta(\omega - n\omega_s),
 \end{equation}
 
-Este tipo de muestreo introduce una envolvente $\text{sinc}$ que atenúa las componentes de alta frecuencia, lo cual debe tenerse en cuenta en la etapa de reconstrucción.
+donde $\omega_s = \tfrac{2\pi}{T_s}$ es la frecuencia de muestreo en radianes. 
 
-\subsubsection{Muestreo Instantáneo (Sample \& Hold)}
-El muestreo instantáneo, o de retención, consiste en capturar el valor de la señal en un instante y mantenerlo constante durante un intervalo $\tau$. Se modela como el muestreo ideal seguido de la convolución con un pulso rectangular de duración $\tau$:
+\bigskip
+
+Sustituyendo en la convolución:
+
+\begin{align}
+    X_n(\omega) 
+    &= \frac{1}{2\pi} X(\omega) \otimes 
+       \left[ \frac{2\pi}{T_s} \sum_{n=-\infty}^{\infty} 
+       \mathrm{sinc}\!\left(\frac{n\omega_s \tau}{2}\right) \, \delta(\omega - n\omega_s) \right] \\[6pt]
+    &= \frac{\tau}{T_s} \sum_{n=-\infty}^{\infty} 
+       \mathrm{sinc}\!\left(\frac{n\omega_s \tau}{2}\right) \, X(\omega - n\omega_s).
+\end{align}
+
+\bigskip
+
+Es decir, el muestreo natural también genera réplicas del espectro $X(\omega)$ en múltiplos de $\omega_s$, 
+pero ahora cada réplica está atenuada por un factor de tipo \textit{sinc} que depende tanto de $m$ como del ancho $\tau$ 
+del pulso. Pero para un n dado, la sinc permanece constante y no depende de omega
+
+\section*{Modelado del Zero-Order Hold (ZOH)}
+
+El bloque \textit{Zero-Order Hold} (ZOH) es el encargado de retener el valor de cada muestra
+durante un período de muestreo $T_s$. A diferencia del muestreo natural o ideal, aquí 
+cada muestra se transforma en un pulso constante de duración $T_s$. 
+
+\bigskip
+
+La respuesta impulsiva del ZOH es un pulso rectangular de ancho $T_s$:
 
 \begin{equation}
-    x_{si}(t) = \left[ x(t) \cdot \sum_{n=-\infty}^{\infty} \delta(t-nT_s) \right] * \text{rect}\left(\frac{t}{\tau}\right).
+    h_{ZOH}(t) = 
+    \begin{cases}
+        1, & 0 \leq t < T_s \\
+        0, & \text{otro caso}
+    \end{cases}
 \end{equation}
 
-En frecuencia, se obtiene:
+Su transformada de Fourier es:
 
 \begin{equation}
-    X_{si}(f) = f_s \cdot \sum_{n=-\infty}^{\infty} X(f-nf_s) \cdot \tau \cdot \text{sinc}(f\tau).
+    H_{ZOH}(\omega) = T_s \, \text{sinc}\!\left(\frac{\omega T_s}{2}\right)
 \end{equation}
 
-La consecuencia de este tipo de muestreo es que el espectro queda multiplicado por una función $\text{sinc}$, lo que implica una atenuación dependiente de la frecuencia. Por este motivo, además del filtro pasa bajos, suele ser necesario un bloque de ecualización que compense la distorsión introducida por la envolvente.
+\bigskip
 
-\subsection{Llave Analógica}
-Las llaves analógicas permiten habilitar o bloquear el paso de una señal en función de una señal de control (generalmente un tren de pulsos). Su correcta implementación es clave para lograr un muestreo preciso, ya que deben presentar baja resistencia en conducción, alta velocidad de conmutación y baja capacitancia parásita.
+Si la entrada al bloque es la señal muestreada ideal $x^*(t)$, la salida se obtiene por convolución:
 
-En combinación con el bloque Sample \& Hold, las llaves analógicas permiten implementar tanto el muestreo natural como el instantáneo, dependiendo de la configuración del sistema y del control aplicado.
+\begin{equation}
+    y(t) = x^*(t) \otimes h_{ZOH}(t),
+\end{equation}
+
+lo cual en frecuencia se traduce en:
+
+\begin{equation}
+    Y(\omega) = X^*(\omega) \cdot H_{ZOH}(\omega).
+\end{equation}
+
+Recordando que el espectro del muestreo ideal es:
+
+\begin{equation}
+    X^*(\omega) = \frac{1}{T_s} \sum_{n=-\infty}^{\infty} X(\omega - n\omega_s),
+\end{equation}
+
+la salida del ZOH resulta:
+
+\begin{equation}
+    Y(\omega) = \frac{1}{T_s} \sum_{n=-\infty}^{\infty} 
+    X(\omega - n\omega_s) \cdot T_s \, \text{sinc}\!\left(\frac{\omega T_s}{2}\right).
+\end{equation}
+
+Ahora la atenuación de la sinc no se mantiene constante para cada réplica, 
+sino que depende de $\omega$ para la misma replica.
 
 \subsection{Filtros en el Proceso de Muestreo}
-Para que el muestreo y la posterior reconstrucción sean correctos, es necesario incorporar filtros pasa bajos en dos etapas fundamentales:
 
-\begin{itemize}
-    \item \textbf{Filtro Anti-Aliasing (FAA):} Se coloca antes de la etapa de muestreo. Su objetivo es atenuar las componentes de frecuencia superiores a $f_s/2$, evitando aliasing. En teoría se modela como un filtro ideal con transición abrupta, pero en la práctica se implementan aproximaciones (Butterworth, Chebyshev, Cauer, etc.), que ofrecen un compromiso entre complejidad y desempeño.
-    
-    \item \textbf{Filtro Recuperador (FR):} Se ubica a la salida del sistema y se encarga de eliminar las réplicas espectrales no deseadas, suavizando la señal muestreada y recuperando lo más fielmente posible la señal original.
-\end{itemize}
+\subsection{Llave Analógica}
+Las llaves analógicas permiten habilitar o bloquear el paso de una señal en función 
+de una señal de control (generalmente un tren de pulsos).
+Su correcta implementación es clave para lograr un muestreo preciso,
+ya que deben presentar baja resistencia en conducción, alta velocidad
+de conmutación y baja capacitancia parásita.
 
-En resumen, el correcto diseño del sistema de muestreo requiere la interacción entre la frecuencia de muestreo, la implementación de la llave analógica, el bloque Sample \& Hold y el uso adecuado de filtros. La calidad de la reconstrucción dependerá de la coherencia entre estos elementos y del cumplimiento del criterio de Nyquist.
+En combinación con el bloque Sample \& Hold, las llaves analógicas permiten
+implementar tanto el muestreo natural como el instantáneo, 
+dependiendo de la configuración del sistema y del control aplicado.
+

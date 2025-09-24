@@ -569,13 +569,17 @@ INPUT .\Imagenes\LOGO ITBA.png
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
+INPUT .\Imagenes\LOGO ITBA.png
+INPUT .\Imagenes\LOGO ITBA.png
+INPUT .\Imagenes\LOGO ITBA.png
+INPUT .\Imagenes\LOGO ITBA.png
+INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr6.tfm
 INPUT .\Imagenes\LOGO ITBA.png
 INPUT .\Imagenes\LOGO ITBA.png
 INPUT .\Imagenes\LOGO ITBA.png
 INPUT .\Imagenes\LOGO ITBA.png
-INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT .\Secciones\seccion2.tex
 INPUT .\Secciones\seccion2.tex
 INPUT .\Secciones\seccion2.tex
@@ -591,17 +595,17 @@ INPUT .\Secciones\seccion4.tex
 INPUT .\Secciones\seccion4.tex
 INPUT .\Secciones\seccion4.tex
 INPUT Secciones\seccion4.tex
+INPUT .\Imagenes\gui_beating.png
+INPUT .\Imagenes\gui_beating.png
+INPUT .\Imagenes\gui_beating.png
+INPUT .\Imagenes\gui_beating.png
+INPUT .\Imagenes\gui_beating.png
+INPUT .\Imagenes\gui_beating.png
+INPUT .\Imagenes\gui_beating.png
 INPUT .\Imagenes\LOGO ITBA.png
 INPUT .\Imagenes\LOGO ITBA.png
 INPUT .\Imagenes\LOGO ITBA.png
 INPUT .\Imagenes\LOGO ITBA.png
-INPUT .\Imagenes\gui_beating.png
-INPUT .\Imagenes\gui_beating.png
-INPUT .\Imagenes\gui_beating.png
-INPUT .\Imagenes\gui_beating.png
-INPUT .\Imagenes\gui_beating.png
-INPUT .\Imagenes\gui_beating.png
-INPUT .\Imagenes\gui_beating.png
 INPUT .\Secciones\seccion5.tex
 INPUT .\Secciones\seccion5.tex
 INPUT .\Secciones\seccion5.tex
@@ -632,6 +636,8 @@ INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmex10.
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmex10.pfb
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
+INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb

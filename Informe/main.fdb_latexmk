@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1758749547.51691 "main.bcf" "main.bbl" "main" 1758749979.00252 0
-  "main.bcf" 1758749978 107814 f1f1e7f47d063313e4d8905369ff8ba1 "pdflatex"
+["biber main"] 1758749547.51691 "main.bcf" "main.bbl" "main" 1758752107.22028 0
+  "main.bcf" 1758752106 107814 f1f1e7f47d063313e4d8905369ff8ba1 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1758749975.62339 "c:/Users/rocco/Desktop/ITBA/ASSD/TP1/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758749979.0038 0
+["pdflatex"] 1758752103.98552 "c:/Users/rocco/Desktop/ITBA/ASSD/TP1/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758752107.2214 0
   "C:/Users/rocco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1758510276 82047 f453b55ebb61edd127187c166946b504 ""
   "C:/Users/rocco/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1758507490 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/rocco/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1758507491 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -57,6 +57,7 @@
   "C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb" 1256929440 116908 9a7a12d1e4df280ea0ab4aad83cdef88 ""
   "C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb" 1256929440 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb" 1256929440 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
+  "C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb" 1256929440 31113 04b711c9a4c7f8cb4ed784c6fc4cc1c5 ""
   "C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb" 1256929440 30635 833ec815d446ec453a4913fc26d24cbc ""
   "C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb" 1256929440 119235 05e5c8d6d60439433e50047898c2c0e0 ""
   "C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb" 1256929440 113634 9384aebdf26f9881e046a4b5574566db ""
@@ -307,17 +308,17 @@
   "Secciones/anexo.tex" 1758746832 87 514fc469fa45fd8c8f53ee88fd56f198 ""
   "Secciones/conclusion.tex" 1758746832 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/introducción.tex" 1758746832 668 93b1dfffcea348ec6bd76f36f1f9aad2 ""
-  "Secciones/seccion1.tex" 1758749974 6397 5f646794278b470a285fa42a3e65357a ""
+  "Secciones/seccion1.tex" 1758752099 7329 7024bfa91153db7e77f6878fd2eb4e67 ""
   "Secciones/seccion2.tex" 1758746832 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/seccion3.tex" 1758746832 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/seccion4.tex" 1758746832 1531 901a5e38c6d04e59c23ae6028c90bf08 ""
   "Secciones/seccion5.tex" 1758746832 0 d41d8cd98f00b204e9800998ecf8427e ""
   "c:/Users/rocco/Desktop/ITBA/ASSD/TP1/ASSD---Simulador-de-Muestreo/Informe/main.tex" 1758746832 2599 e669a5b275e72e6c155492d0472c303f ""
-  "main.aux" 1758749978 6734 f69af37415a1a929de1a662f229f839a "pdflatex"
+  "main.aux" 1758752106 6078 0a73ecc0a6c78104061559fe5e6e229d "pdflatex"
   "main.bbl" 1758749555 486 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.run.xml" 1758749978 2414 f58a6a66a11f3bc67b860f2e1b910d75 "pdflatex"
+  "main.run.xml" 1758752106 2414 f58a6a66a11f3bc67b860f2e1b910d75 "pdflatex"
   "main.tex" 1758746832 2599 e669a5b275e72e6c155492d0472c303f ""
-  "main.toc" 1758749978 1239 cdec1f115e09b1cdcacff7cadcc9f005 "pdflatex"
+  "main.toc" 1758752106 1125 23b210b6c4791f01cc6548533a73db0f "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

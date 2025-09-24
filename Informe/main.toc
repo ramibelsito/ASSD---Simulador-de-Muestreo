@@ -5,12 +5,11 @@
 \contentsline {subsection}{\numberline {2.2}Tipos de Muestreo}{1}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Muestreo Ideal}{1}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Muestreo Natural}{2}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Muestreo Instantáneo (Sample \& Hold)}{2}{subsubsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.3}Llave Analógica}{3}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Filtros en el Proceso de Muestreo}{3}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Circuito de Muestreo}{3}{section.3}%
-\contentsline {section}{\numberline {4}Filtros Pasa Bajos}{3}{section.4}%
-\contentsline {section}{\numberline {5}Simulaciones}{3}{section.5}%
-\contentsline {section}{\numberline {6}Simulaciones en Python}{4}{section.6}%
-\contentsline {section}{\numberline {7}Conclusión}{4}{section.7}%
-\contentsline {section}{\numberline {8}Anexo}{4}{section.8}%
+\contentsline {subsection}{\numberline {2.3}Filtros en el Proceso de Muestreo}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Llave Analógica}{4}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Circuito de Muestreo}{4}{section.3}%
+\contentsline {section}{\numberline {4}Filtros Pasa Bajos}{4}{section.4}%
+\contentsline {section}{\numberline {5}Simulaciones}{4}{section.5}%
+\contentsline {section}{\numberline {6}Simulaciones en Python}{5}{section.6}%
+\contentsline {section}{\numberline {7}Conclusión}{5}{section.7}%
+\contentsline {section}{\numberline {8}Anexo}{5}{section.8}%
