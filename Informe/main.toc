@@ -5,7 +5,10 @@
 \contentsline {subsection}{\numberline {2.2}Tipos de Muestreo}{1}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Muestreo Ideal}{1}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Muestreo Natural}{2}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Muestreo Instantáneo (Zero-Order Hold)}{3}{subsubsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.3}Filtros en el Proceso de Muestreo}{4}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Filtro AntiAliasing}{4}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Filtro de Reconstrucción}{4}{subsubsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.4}Llave Analógica}{4}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Circuito de Muestreo}{4}{section.3}%
 \contentsline {section}{\numberline {4}Filtros Pasa Bajos}{4}{section.4}%
