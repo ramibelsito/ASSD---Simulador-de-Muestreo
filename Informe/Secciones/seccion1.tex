@@ -13,20 +13,44 @@ De no cumplirse con el criterio de Nyquist, se produce un fenómeno conocido com
 Existen diferentes modelos para describir el proceso de muestreo. Los más relevantes para este trabajo son: el muestreo ideal, el muestreo natural y el muestreo instantáneo (siendo estos últimos los proporcionados por el Sample \& Hold).
 
 \subsubsection{Muestreo Ideal}
-El muestreo ideal es un modelo teórico que supone la multiplicación de la señal $x(t)$ por un tren de impulsos de Dirac:
+\section*{Muestreo Ideal}
+
+
+A continuación se muestra el desarrollo en el dominio de la frecuencia:
+El muestreo ideal es un modelo teórico que supone la multiplicación de la señal $x(t)$ por un tren de
+impulsos de Dirac:
+\begin{equation}
+    x^*(t) = x(t) \cdot \delta_T(t)
+\end{equation}
+donde $T_s$ es el período de muestreo y $\omega_s = 2\pi/T_s$ la frecuencia de muestreo. 
 
 \begin{equation}
-    x_s(t) = x(t) \cdot \sum_{n=-\infty}^{\infty} \delta(t-nT_s),
+    X^*(\omega) = \frac{1}{2\pi} X(\omega) \otimes \mathcal{F}\{\delta_T(t)\}
 \end{equation}
-
-donde $T_s$ es el período de muestreo y $f_s = 1/T_s$ la frecuencia de muestreo.  
-En el dominio de la frecuencia, este proceso genera réplicas del espectro original $X(f)$ desplazadas en múltiplos de $f_s$:
 
 \begin{equation}
-    X_s(f) = f_s \cdot \sum_{n=-\infty}^{\infty} X(f-nf_s).
+    = \frac{1}{T} X(\omega) \otimes \left\{ \omega_s \sum_{m=-\infty}^{\infty} \delta(\omega - m\omega_s) \right\}
 \end{equation}
 
-Si se cumple el criterio de Nyquist, dichas réplicas no se solapan, y la señal puede recuperarse exactamente mediante un filtro pasa bajos ideal. Sin embargo, este modelo no es realizable en la práctica, ya que no existen impulsos de duración infinitesimal ni amplitud infinita.
+\begin{equation}
+    = \frac{1}{T} X(\omega) \otimes \left\{ \sum_{m=-\infty}^{\infty} \delta(\omega - m\omega_s) \right\}
+\end{equation}
+
+\begin{equation}
+    X^*(\omega) = \frac{1}{T} \sum_{m=-\infty}^{\infty} X(\omega - m\omega_s)
+\end{equation}
+
+
+Donde $\otimes$ denota convolución. 
+
+
+En el dominio de la frecuencia, este proceso genera réplicas del espectro original $X(\omega)$ desplazadas en múltiplos de $\omega_s$:
+Si se cumple el criterio de Nyquist, dichas réplicas no se solapan, y la señal puede recuperarse
+exactamente mediante un filtro pasa bajos ideal. 
+
+\bigskip
+
+Este modelo no es realizable en la práctica, ya que no existen impulsos de duración infinitesimal ni amplitud infinita.
 
 \subsubsection{Muestreo Natural}
 El muestreo natural consiste en permitir el paso de la señal durante un intervalo finito de tiempo $\tau$, repitiendo este proceso cada $T_s$. Matemáticamente, se describe como:
