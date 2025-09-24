@@ -10,7 +10,7 @@
 \contentsline {subsubsection}{\numberline {2.3.1}Filtro AntiAliasing}{4}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Filtro de Reconstrucción}{4}{subsubsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.4}Llave Analógica}{4}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Circuito de Muestreo}{4}{section.3}%
+\contentsline {section}{\numberline {3}Implementación}{4}{section.3}%
 \contentsline {section}{\numberline {4}Filtros Pasa Bajos}{4}{section.4}%
 \contentsline {section}{\numberline {5}Simulaciones}{4}{section.5}%
 \contentsline {section}{\numberline {6}Simulaciones en Python}{5}{section.6}%

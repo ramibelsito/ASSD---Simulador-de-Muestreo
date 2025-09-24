@@ -167,13 +167,6 @@ Si bien el filtro asegura una reconstrucción más fiel a la señal original, l�
 El filtro de reconstrucción se coloca al final del proceso de muestreo y su función es eliminar las réplicas de alta frecuencia generadas por el muestreo.
 La freuencia de corte de este filtro pasabajos debe ser mayor a la frecuencia máxima de la señal original, pero menor a la frecuencia de Nyquist.
 \subsection{Llave Analógica}
-Las llaves analógicas permiten habilitar o bloquear el paso de una señal en función 
-de una señal de control (generalmente un tren de pulsos).
-Su correcta implementación es clave para lograr un muestreo preciso,
-ya que deben presentar baja resistencia en conducción, alta velocidad
-de conmutación y baja capacitancia parásita.
-
-En combinación con el bloque Sample \& Hold, las llaves analógicas permiten
-implementar tanto el muestreo natural como el instantáneo, 
-dependiendo de la configuración del sistema y del control aplicado.
-
+El dispositivo encargado de realizar el muestreo de la señal es el Sample \& Hold, que permite realizar muestreos 
+tanto naturales como instantáneos. Para seleccionar el modo de operación, se utiliza una llave analógica (sincronizada
+con el duty y la frecuencia del Sample \& Hold) que permite el paso de la señal muestreada en el momento correspondiente al modo elegido.

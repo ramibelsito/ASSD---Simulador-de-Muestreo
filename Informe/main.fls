@@ -1663,6 +1663,11 @@ INPUT Secciones/seccion2.tex
 INPUT ./Secciones/seccion2.tex
 INPUT ./Secciones/seccion2.tex
 INPUT Secciones/seccion2.tex
+INPUT ./Imagenes/Circuito_Muestreo.png
+INPUT ./Imagenes/Circuito_Muestreo.png
+INPUT Imagenes/Circuito_Muestreo.png
+INPUT ./Imagenes/Circuito_Muestreo.png
+INPUT ./Imagenes/Circuito_Muestreo.png
 INPUT ./Secciones/seccion3.tex
 INPUT ./Secciones/seccion3.tex
 INPUT ./Secciones/seccion3.tex
@@ -1677,15 +1682,15 @@ INPUT Secciones/seccion4.tex
 INPUT ./Secciones/seccion4.tex
 INPUT ./Secciones/seccion4.tex
 INPUT Secciones/seccion4.tex
+INPUT ./Imagenes/LOGO ITBA.png
+INPUT ./Imagenes/LOGO ITBA.png
+INPUT Imagenes/LOGO ITBA.png
+INPUT ./Imagenes/LOGO ITBA.png
 INPUT ./Imagenes/gui_beating.png
 INPUT ./Imagenes/gui_beating.png
 INPUT Imagenes/gui_beating.png
 INPUT ./Imagenes/gui_beating.png
 INPUT ./Imagenes/gui_beating.png
-INPUT ./Imagenes/LOGO ITBA.png
-INPUT ./Imagenes/LOGO ITBA.png
-INPUT Imagenes/LOGO ITBA.png
-INPUT ./Imagenes/LOGO ITBA.png
 INPUT ./Secciones/seccion5.tex
 INPUT ./Secciones/seccion5.tex
 INPUT ./Secciones/seccion5.tex

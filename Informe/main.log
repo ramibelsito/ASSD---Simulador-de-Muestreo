@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.23)  24 SEP 2025 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.23)  24 SEP 2025 19:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1447,15 +1447,16 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
-[3]) (./Secciones/seccion2.tex) (./Secciones/seccion3.tex) (./Secciones/seccion4.tex
-<Imagenes/gui_beating.png, id=104, 1245.15187pt x 688.07062pt>
-File: Imagenes/gui_beating.png Graphic file (type png)
-<use Imagenes/gui_beating.png>
-Package pdftex.def Info: Imagenes/gui_beating.png  used on input line 20.
-(pdftex.def)             Requested size: 386.95897pt x 213.83514pt.
+[3]) (./Secciones/seccion2.tex
+<Imagenes/Circuito_Muestreo.png, id=104, 895.09406pt x 274.77657pt>
+File: Imagenes/Circuito_Muestreo.png Graphic file (type png)
+<use Imagenes/Circuito_Muestreo.png>
+Package pdftex.def Info: Imagenes/Circuito_Muestreo.png  used on input line 4.
+(pdftex.def)             Requested size: 386.95897pt x 118.78891pt.
+) (./Secciones/seccion3.tex) (./Secciones/seccion4.tex
 File: Imagenes/LOGO ITBA.png Graphic file (type png)
 <use Imagenes/LOGO ITBA.png>
-Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 24.
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 6.
 (pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
 
 
@@ -1465,7 +1466,13 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
-[4]) (./Secciones/seccion5.tex) (./Secciones/conclusion.tex) (./Secciones/anexo.tex)
+[4 <./Imagenes/Circuito_Muestreo.png>]
+<Imagenes/gui_beating.png, id=111, 1245.15187pt x 688.07062pt>
+File: Imagenes/gui_beating.png Graphic file (type png)
+<use Imagenes/gui_beating.png>
+Package pdftex.def Info: Imagenes/gui_beating.png  used on input line 20.
+(pdftex.def)             Requested size: 386.95897pt x 213.83514pt.
+) (./Secciones/seccion5.tex) (./Secciones/conclusion.tex) (./Secciones/anexo.tex)
 
 LaTeX Warning: Empty bibliography on input line 78.
 
@@ -1494,18 +1501,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53196 strings out of 478287
- 1155165 string characters out of 5849289
- 2210618 words of memory out of 5000000
- 70457 multiletter control sequences out of 15000+600000
- 531085 words of font info for 126 fonts, out of 8000000 for 9000
+ 53203 strings out of 478287
+ 1155416 string characters out of 5849289
+ 2210684 words of memory out of 5000000
+ 70464 multiletter control sequences out of 15000+600000
+ 531002 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,16n,106p,1193b,2036s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (7 pages, 430078 bytes).
+Output written on main.pdf (7 pages, 590759 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 35487 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 259 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 35492 words of extra memory for PDF output out of 35830 (max. 10000000)
 
