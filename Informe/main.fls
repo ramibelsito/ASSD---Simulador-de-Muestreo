@@ -1691,13 +1691,6 @@ INPUT ./Imagenes/gui_beating.png
 INPUT Imagenes/gui_beating.png
 INPUT ./Imagenes/gui_beating.png
 INPUT ./Imagenes/gui_beating.png
-INPUT ./Secciones/seccion5.tex
-INPUT ./Secciones/seccion5.tex
-INPUT ./Secciones/seccion5.tex
-INPUT Secciones/seccion5.tex
-INPUT ./Secciones/seccion5.tex
-INPUT ./Secciones/seccion5.tex
-INPUT Secciones/seccion5.tex
 INPUT ./Secciones/conclusion.tex
 INPUT Secciones/conclusion.tex
 INPUT ./Secciones/conclusion.tex
@@ -1709,6 +1702,10 @@ INPUT Secciones/anexo.tex
 INPUT ./Secciones/anexo.tex
 INPUT ./Secciones/anexo.tex
 INPUT Secciones/anexo.tex
+INPUT ./Imagenes/LOGO ITBA.png
+INPUT ./Imagenes/LOGO ITBA.png
+INPUT Imagenes/LOGO ITBA.png
+INPUT ./Imagenes/LOGO ITBA.png
 INPUT ./Imagenes/LOGO ITBA.png
 INPUT ./Imagenes/LOGO ITBA.png
 INPUT Imagenes/LOGO ITBA.png
