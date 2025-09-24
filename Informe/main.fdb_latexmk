@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1758754460 "main.bcf" "main.bbl" "main" 1758754857
-  "main.bcf" 1758754857 106347 f20ffb784ba407f5e51fc6d49021ce74 "pdflatex"
+["biber main"] 1758755016 "main.bcf" "main.bbl" "main" 1758755020
+  "main.bcf" 1758755020 106347 f20ffb784ba407f5e51fc6d49021ce74 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1758754855 "/home/rami/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758754857
+["pdflatex"] 1758755019 "/home/rami/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758755020
   "/etc/texmf/web2c/texmf.cnf" 1695304429 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/rami/ASSD---Simulador-de-Muestreo/Informe/main.tex" 1758754539 2404 9e962c27bb47c64e8b0393f826af05e1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -315,14 +315,14 @@
   "Secciones/conclusion.tex" 1758752486 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/introducción.tex" 1758752486 661 93b1dfffcea348ec6bd76f36f1f9aad2 ""
   "Secciones/seccion1.tex" 1758754118 7643 f59bf652016ed75255f5392f0ebb3b2c ""
-  "Secciones/seccion2.tex" 1758754855 557 d0b631c54eca2226a781857029a42a88 ""
+  "Secciones/seccion2.tex" 1758755014 566 d4eab72132af14973bd004d77a201874 ""
   "Secciones/seccion3.tex" 1758752486 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/seccion4.tex" 1758752486 1502 901a5e38c6d04e59c23ae6028c90bf08 ""
-  "main.aux" 1758754857 9260 a98b9d44ecd2a5cdd45483db597ce46d "pdflatex"
-  "main.bbl" 1758754461 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.run.xml" 1758754857 2414 d1b2afdee5e2e8eb5111a4e16fda2e2c "pdflatex"
+  "main.aux" 1758755020 9260 ce5675cad2c0a928b9599d6d4e793eec "pdflatex"
+  "main.bbl" 1758755017 466 ee04f40f768daeed26442158e95aba61 "biber main"
+  "main.run.xml" 1758755020 2414 d1b2afdee5e2e8eb5111a4e16fda2e2c "pdflatex"
   "main.tex" 1758754539 2404 9e962c27bb47c64e8b0393f826af05e1 ""
-  "main.toc" 1758754857 1612 409e09b54057d8d8002ee92caa427710 "pdflatex"
+  "main.toc" 1758755020 1612 ddbc7c62725e02da5db4ed437ddde685 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
