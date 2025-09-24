@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1758510844 "main.bcf" "main.bbl" "main" 1758510849
-  "main.bcf" 1758510848 106347 f20ffb784ba407f5e51fc6d49021ce74 "pdflatex"
+["biber main"] 1758748003 "main.bcf" "main.bbl" "main" 1758748477
+  "main.bcf" 1758748476 106347 f20ffb784ba407f5e51fc6d49021ce74 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1758510847 "/home/rami/ASSD/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758510849
+["pdflatex"] 1758748475 "/home/rami/ASSD/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758748477
   "/etc/texmf/web2c/texmf.cnf" 1695304429 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/rami/ASSD/ASSD---Simulador-de-Muestreo/Informe/main.tex" 1758501962 2514 e669a5b275e72e6c155492d0472c303f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -261,6 +261,7 @@
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm" 1254938640 12156 ca1ae6a3c8564e89597f1f993fba1608 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmr6.tfm" 1254938640 12048 c1068d0f4772be9b0ec447692e1d6d82 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm" 1254938640 12064 a35db870f0b76c338d749c56dc030ef5 ""
+  "/usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm" 1254938640 17148 9556e1b5f936b77a796f68d2d559ba99 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmro12.tfm" 1254938640 12216 265ff4deab161a560d37046d13363b8c ""
   "/usr/share/texmf/fonts/tfm/public/lm/lmbsy10.tfm" 1254938640 1300 2df9da0fc09d4a8c772b3dd386a47c6a ""
   "/usr/share/texmf/fonts/tfm/public/lm/lmbsy7.tfm" 1254938640 1304 535e0954c1961c817723e44bc6a9662c ""
@@ -289,6 +290,7 @@
   "/usr/share/texmf/fonts/type1/public/lm/lmr12.pfb" 1254938640 113634 f99c44d58bae0863375faf0e1d74d612 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmr17.pfb" 1254938640 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmr8.pfb" 1254938640 122174 a7a08406857c9530a0320a2517f60370 ""
+  "/usr/share/texmf/fonts/type1/public/lm/lmri10.pfb" 1254938640 112593 fda2373ba4420af33949610de4c28fe8 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmro12.pfb" 1254938640 125209 a5bd29c5b5feb791d0332220e4a79275 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb" 1254938640 27863 09ce3735688ffde955e72da27c95b61a ""
   "/usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb" 1254938640 27802 5c876bb2c4040caaf035d60bd74a86bd ""
@@ -310,16 +312,16 @@
   "Secciones/anexo.tex" 1758510841 85 514fc469fa45fd8c8f53ee88fd56f198 ""
   "Secciones/conclusion.tex" 1758498647 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/introducción.tex" 1758500421 661 93b1dfffcea348ec6bd76f36f1f9aad2 ""
-  "Secciones/seccion1.tex" 1758510841 1744 7ca03214d085794ec203c47f1d27dd76 ""
+  "Secciones/seccion1.tex" 1758748475 5749 c7351f6b02928881dbcaeb5954fb6b51 ""
   "Secciones/seccion2.tex" 1758498624 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/seccion3.tex" 1758498627 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/seccion4.tex" 1758510841 1502 901a5e38c6d04e59c23ae6028c90bf08 ""
   "Secciones/seccion5.tex" 1758501418 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.aux" 1758510848 4039 736e342c8320d13ff359be561fb3f782 "pdflatex"
-  "main.bbl" 1758510845 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.run.xml" 1758510848 2414 d1b2afdee5e2e8eb5111a4e16fda2e2c "pdflatex"
+  "main.aux" 1758748476 7227 e77bfc6c755e0167047b1c18fa257847 "pdflatex"
+  "main.bbl" 1758748004 466 ee04f40f768daeed26442158e95aba61 "biber main"
+  "main.run.xml" 1758748476 2414 d1b2afdee5e2e8eb5111a4e16fda2e2c "pdflatex"
   "main.tex" 1758501962 2514 e669a5b275e72e6c155492d0472c303f ""
-  "main.toc" 1758510848 593 5e7733890326155bdf01e648687c948a "pdflatex"
+  "main.toc" 1758748476 1239 cdec1f115e09b1cdcacff7cadcc9f005 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

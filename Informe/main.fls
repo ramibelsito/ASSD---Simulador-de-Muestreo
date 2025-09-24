@@ -1565,18 +1565,6 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT ./main.toc
 INPUT main.toc
 INPUT main.toc
-OUTPUT main.toc
-INPUT ./Secciones/introducción.tex
-INPUT Secciones/introducción.tex
-INPUT ./Secciones/introducción.tex
-INPUT Secciones/introducción.tex
-INPUT ./Secciones/seccion1.tex
-INPUT ./Secciones/seccion1.tex
-INPUT ./Secciones/seccion1.tex
-INPUT Secciones/seccion1.tex
-INPUT ./Secciones/seccion1.tex
-INPUT ./Secciones/seccion1.tex
-INPUT Secciones/seccion1.tex
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
@@ -1641,6 +1629,23 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
+OUTPUT main.toc
+INPUT ./Secciones/introducción.tex
+INPUT Secciones/introducción.tex
+INPUT ./Secciones/introducción.tex
+INPUT Secciones/introducción.tex
+INPUT ./Secciones/seccion1.tex
+INPUT ./Secciones/seccion1.tex
+INPUT ./Secciones/seccion1.tex
+INPUT Secciones/seccion1.tex
+INPUT ./Secciones/seccion1.tex
+INPUT ./Secciones/seccion1.tex
+INPUT Secciones/seccion1.tex
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm
+INPUT ./Imagenes/LOGO ITBA.png
+INPUT ./Imagenes/LOGO ITBA.png
+INPUT Imagenes/LOGO ITBA.png
+INPUT ./Imagenes/LOGO ITBA.png
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT ./Imagenes/LOGO ITBA.png
@@ -1702,11 +1707,11 @@ INPUT ./Imagenes/LOGO ITBA.png
 INPUT main.aux
 INPUT main.run.xml
 OUTPUT main.run.xml
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb
@@ -1719,6 +1724,7 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr17.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmro12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb
