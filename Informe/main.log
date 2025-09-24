@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.23)  24 SEP 2025 20:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.23)  24 SEP 2025 20:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1472,20 +1472,7 @@ File: Imagenes/gui_beating.png Graphic file (type png)
 <use Imagenes/gui_beating.png>
 Package pdftex.def Info: Imagenes/gui_beating.png  used on input line 20.
 (pdftex.def)             Requested size: 386.95897pt x 213.83514pt.
-) (./Secciones/conclusion.tex) (./Secciones/anexo.tex
-File: Imagenes/LOGO ITBA.png Graphic file (type png)
-<use Imagenes/LOGO ITBA.png>
-Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 3.
-(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
-
-
-Package fancyhdr Warning: \headheight is too small (25.0pt): 
-(fancyhdr)                Make it at least 27.17116pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.17116pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
-
-[5 <./Imagenes/gui_beating.png>])
+) (./Secciones/conclusion.tex) (./Secciones/anexo.tex)
 
 LaTeX Warning: Empty bibliography on input line 74.
 
@@ -1504,7 +1491,7 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
-[6] (./main.aux
+[5 <./Imagenes/gui_beating.png>] (./main.aux
 LaTeX Info: Redefining \sptext on input line 28.
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
@@ -1514,18 +1501,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53204 strings out of 478287
- 1155347 string characters out of 5849289
+ 53203 strings out of 478287
+ 1155341 string characters out of 5849289
  2211684 words of memory out of 5000000
  70463 multiletter control sequences out of 15000+600000
  531085 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,16n,106p,1193b,2036s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (8 pages, 591455 bytes).
+Output written on main.pdf (7 pages, 591096 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
+ 269 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
  35508 words of extra memory for PDF output out of 35830 (max. 10000000)
 
