@@ -5,9 +5,94 @@ Esquematico del circuito a implementar:
     \caption{Circuito de Muestreo y Retención}
     \label{fig:Circuito_Muestreo}
 \end{figure}
+Esta implementación del circuito de muestreo y recuperación de la señal analógica nos permite analizar 
+los efectos de las distintas etapas del proceso de muestreo y su importancia en el sampleo de la señal.
 
 \subsection{Filtros Pasabajos}
-holahola
+
+La señal a muestrear que limita el diseño de los filtros corresponde 
+a una onda cuadrada de amplitud $V_{\max}$, ciclo de trabajo $D = 0.75$ 
+y período
+
+\[
+T = \frac{2}{f_i}, \quad f_i = 15 \,\text{kHz},
+\]
+
+de modo que la frecuencia fundamental resulta
+
+\[
+f_0 = \frac{1}{T} = \frac{f_i}{2} = 7.5 \,\text{kHz}.
+\]
+
+
+
+La serie de Fourier de una onda cuadrada con duty $D$ se obtiene a partir 
+de los coeficientes
+
+Consideremos una señal cuadrada periódica de amplitud $A$, periodo $T$ y duty cycle $D$:
+
+\[
+x(t) =
+\begin{cases}
+A, & 0 \le t < D T \\
+0, & D T \le t < T
+\end{cases}
+\]
+
+y se repite cada $T$ segundos.
+Los coeficientes de la serie de Fourier están dados por:
+
+\[
+c_n = \frac{1}{T} \int_0^T x(t) e^{-j n \omega_0 t} dt, \quad \omega_0 = \frac{2 \pi}{T}
+\]
+
+Para nuestra señal cuadrada:
+
+\[
+c_n = \frac{1}{T} \int_0^{D T} A e^{-j n \omega_0 t} dt
+= \frac{A}{T} \int_0^{D T} e^{-j n \omega_0 t} dt
+\]
+
+Integrando:
+
+\[
+c_n = \frac{A}{T} \left[ \frac{e^{-j n \omega_0 t}}{-j n \omega_0} \right]_0^{D T}
+= \frac{A}{j n \omega_0 T} \left( 1 - e^{-j n \omega_0 D T} \right)
+\]
+
+Como $\omega_0 T = 2 \pi$:
+
+\[
+c_n = \frac{A}{j 2 \pi n} \left( 1 - e^{-j 2 \pi n D} \right), \quad n \neq 0
+\]
+
+Para $n = 0$ (componente DC):
+
+\[
+c_0 = \frac{1}{T} \int_0^T x(t) dt = \frac{A \cdot D T}{T} = A D
+\]
+
+
+
+Usando la identidad $1 - e^{-j \theta} = 2 j \sin(\theta/2) e^{-j \theta/2}$, la magnitud de cada armónico es:
+
+\[
+|c_n| = \frac{A}{n \pi} \left| \sin(n \pi D) \right|
+\]
+
+- Para $D = 0.75$:
+
+\[
+|c_n| = \frac{A}{n \pi} \left| \sin(0.75 \, n \pi) \right|
+\]
+
+Ya que para una buena reconstruccion de la misma es necesario que los filtros
+capturen la mayor cantidad de harmónicos posibles, se decidio colocar
+la frecuencia de corte en $f_c = 80 \,\text{kHz}$, lo cual permite capturar 
+hasta 10 harmónicos (no nulos) de la señal de entrada.
+
+Para el diseño de los filtros se utilizo la aproximación de Cauer (elíptica), 
+con 3 celdas Sedra colocadas en cascada.
 
 \subsection{Oscilador}
 
