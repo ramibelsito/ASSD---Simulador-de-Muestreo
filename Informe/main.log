@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.23)  24 SEP 2025 21:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.23)  24 SEP 2025 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1451,11 +1451,11 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 <Imagenes/Circuito_Muestreo.png, id=108, 895.09406pt x 274.77657pt>
 File: Imagenes/Circuito_Muestreo.png Graphic file (type png)
 <use Imagenes/Circuito_Muestreo.png>
-Package pdftex.def Info: Imagenes/Circuito_Muestreo.png  used on input line 4.
+Package pdftex.def Info: Imagenes/Circuito_Muestreo.png  used on input line 5.
 (pdftex.def)             Requested size: 386.95897pt x 118.78891pt.
 File: Imagenes/LOGO ITBA.png Graphic file (type png)
 <use Imagenes/LOGO ITBA.png>
-Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 15.
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 16.
 (pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
 
 
@@ -1469,7 +1469,7 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 <Imagenes/esquematico_oscilador.png, id=116, 1515.41156pt x 673.76718pt>
 File: Imagenes/esquematico_oscilador.png Graphic file (type png)
 <use Imagenes/esquematico_oscilador.png>
-Package pdftex.def Info: Imagenes/esquematico_oscilador.png  used on input line 21.
+Package pdftex.def Info: Imagenes/esquematico_oscilador.png  used on input line 22.
 (pdftex.def)             Requested size: 386.95897pt x 172.03967pt.
 ) (./Secciones/seccion3.tex) (./Secciones/seccion4.tex
 File: Imagenes/LOGO ITBA.png Graphic file (type png)
