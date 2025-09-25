@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.21)  24 SEP 2025 21:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.21)  24 SEP 2025 22:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1545,7 +1545,20 @@ File: Imagenes/gui_beating.png Graphic file (type png)
 <use Imagenes/gui_beating.png>
 Package pdftex.def Info: Imagenes/gui_beating.png  used on input line 20.
 (pdftex.def)             Requested size: 386.95897pt x 213.83514pt.
-) (Secciones/conclusion.tex) (Secciones/anexo.tex)
+) (Secciones/conclusion.tex
+
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 15.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[7 <./Imagenes/gui_beating.png>]) (Secciones/anexo.tex)
 
 LaTeX Warning: Empty bibliography on input line 74.
 
@@ -1566,7 +1579,7 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
-[7 <./Imagenes/gui_beating.png>] (main.aux
+[8] (main.aux
 LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
@@ -1580,17 +1593,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57929 strings out of 468130
- 1289795 string characters out of 5430633
- 2495962 words of memory out of 5000000
+ 57934 strings out of 468130
+ 1289843 string characters out of 5430633
+ 2495964 words of memory out of 5000000
  85613 multiletter control sequences out of 15000+600000
- 688947 words of font info for 141 fonts, out of 8000000 for 9000
+ 689113 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,16n,108p,1255b,2047s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/bera/fvmro8a.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (9 pages, 675988 bytes).
+Output written on main.pdf (10 pages, 678082 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
+ 287 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
  35513 words of extra memory for PDF output out of 35830 (max. 10000000)
 
