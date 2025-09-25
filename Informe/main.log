@@ -1344,4 +1344,206 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 14
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 23.
- (/usr/share
+ (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
+(Font)              scaled to size 10.20007pt on input line 23.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Imagenes/LOGO ITBA.png>]) (./main.toc
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4.
+ (/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 4.
+ (/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 4.
+ (/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+))
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.37 \newpage
+              [1] (./Secciones/introducción.tex) (./Secciones/seccion1.tex
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 35.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 \end{equation}
+                    [1]
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 98.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[2]
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 162.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[3]) (./Secciones/seccion2.tex
+<Imagenes/Circuito_Muestreo.png, id=108, 895.09406pt x 274.77657pt>
+File: Imagenes/Circuito_Muestreo.png Graphic file (type png)
+<use Imagenes/Circuito_Muestreo.png>
+Package pdftex.def Info: Imagenes/Circuito_Muestreo.png  used on input line 5.
+(pdftex.def)             Requested size: 386.95897pt x 118.78891pt.
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 18.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[4 <./Imagenes/Circuito_Muestreo.png>]
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 88.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[5]
+<Imagenes/esquematico_oscilador.png, id=122, 1515.41156pt x 673.76718pt>
+File: Imagenes/esquematico_oscilador.png Graphic file (type png)
+<use Imagenes/esquematico_oscilador.png>
+Package pdftex.def Info: Imagenes/esquematico_oscilador.png  used on input line 106.
+(pdftex.def)             Requested size: 386.95897pt x 172.03967pt.
+) (./Secciones/seccion3.tex) (./Secciones/seccion4.tex
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 6.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[6 <./Imagenes/esquematico_oscilador.png>]
+<Imagenes/gui_beating.png, id=129, 1245.15187pt x 688.07062pt>
+File: Imagenes/gui_beating.png Graphic file (type png)
+<use Imagenes/gui_beating.png>
+Package pdftex.def Info: Imagenes/gui_beating.png  used on input line 20.
+(pdftex.def)             Requested size: 386.95897pt x 213.83514pt.
+) (./Secciones/conclusion.tex) (./Secciones/anexo.tex)
+
+LaTeX Warning: Empty bibliography on input line 74.
+
+
+Package caption Warning: Unused \captionsetup[subfigure] on input line 70.
+See the caption package documentation for explanation.
+
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 81.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[7 <./Imagenes/gui_beating.png>] (./main.aux
+LaTeX Info: Redefining \sptext on input line 28.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+)
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 53222 strings out of 478287
+ 1155749 string characters out of 5849289
+ 2211743 words of memory out of 5000000
+ 70472 multiletter control sequences out of 15000+600000
+ 531381 words of font info for 129 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 104i,16n,106p,1193b,2036s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (9 pages, 641894 bytes).
+PDF statistics:
+ 286 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 35513 words of extra memory for PDF output out of 35830 (max. 10000000)
+
