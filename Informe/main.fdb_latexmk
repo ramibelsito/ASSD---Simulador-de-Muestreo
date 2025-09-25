@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1758763576 "main.bcf" "main.bbl" "main" 1758767755
-  "main.bcf" 1758767755 105995 d1fef2d05aa534e6b7dd93347d3d9c23 "pdflatex"
+["biber main"] 1758763576 "main.bcf" "main.bbl" "main" 1758768071
+  "main.bcf" 1758768071 105995 d1fef2d05aa534e6b7dd93347d3d9c23 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1758767750 "/home/rami/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758767755
+["pdflatex"] 1758768064 "/home/rami/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758768071
   "/etc/texmf/web2c/texmf.cnf" 1695304429 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/rami/ASSD---Simulador-de-Muestreo/Informe/main.tex" 1758763572 2558 83e49c903a78ea9fe0f71987def68e0f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -330,7 +330,7 @@
   "Imagenes/esquematico_oscilador.png" 1758758630 34462 9cb3aee42f600406a82350a53b19ef14 ""
   "Imagenes/gui_beating.png" 1758752486 158353 f39873bff1137c4481a5ac2f2a172458 ""
   "Imagenes/placaFrente.jpg" 1758762475 3424338 29681305d4e2f5ce2e32ca33f388a147 ""
-  "Preambulo/Variables.tex" 1758763859 1117 76d0ae0e766bf8cc1b877bf148c380f4 ""
+  "Preambulo/Variables.tex" 1758768064 1124 b4d7e6927355fdbd9ca2e96a1b2efb19 ""
   "Preambulo/bibliografia.bib" 1758761772 462 2e06db2d1f4e1ac1adeb91b35e0b2dbb ""
   "Preambulo/paquetes.tex" 1758752486 5721 650c4d59bc3ef556d16f4dfc50da2a96 ""
   "Preambulo/portada.tex" 1758752486 1359 6bb7105ae6e9b6cbd63653da798eaf63 ""
@@ -340,11 +340,11 @@
   "Secciones/seccion2.tex" 1758763653 8109 0132fa07f52627227cc4d1875db5301a ""
   "Secciones/seccion3.tex" 1758767743 4375 99f06a514ff7782e68dddfd4425ee86f ""
   "Secciones/seccion4.tex" 1758761797 1579 0a36dc9a15517f91b1cb5e43ff32fb5a ""
-  "main.aux" 1758767755 15503 7a069d284517c88c3c01de867c4eb022 "pdflatex"
+  "main.aux" 1758768071 15503 7a069d284517c88c3c01de867c4eb022 "pdflatex"
   "main.bbl" 1758763576 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.run.xml" 1758767755 2414 d14a30e1843adbbd8399e205697f1eb5 "pdflatex"
+  "main.run.xml" 1758768071 2414 d14a30e1843adbbd8399e205697f1eb5 "pdflatex"
   "main.tex" 1758763572 2558 83e49c903a78ea9fe0f71987def68e0f ""
-  "main.toc" 1758767755 2039 dcccef63d4f9b49bc194fff485e24f3c "pdflatex"
+  "main.toc" 1758768071 2039 dcccef63d4f9b49bc194fff485e24f3c "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
