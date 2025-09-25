@@ -1,4 +1,4 @@
-Esquematico del circuito a implementar:
+Esquemático del circuito a implementar:
 
 \begin{figure}[H]
     \centering
@@ -8,28 +8,7 @@ Esquematico del circuito a implementar:
 \end{figure}
 Esta implementación del circuito de muestreo y recuperación de la señal analógica nos permite analizar 
 los efectos de las distintas etapas del proceso de muestreo y su importancia en el sampleo de la señal.
-% 2. Varias horizontales
-\subsubsection{Fotos de la Placa en Uso}
-\begin{figure}[H]
-    \centering
-    \begin{minipage}[b]{0.3\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Imagenes/placaFrente.jpg}
-        \\[2pt] {\small Foto 1}
-    \end{minipage}\hfill
-    \begin{minipage}[b]{0.3\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Imagenes/PlacaBottom.jpg}
-        \\[2pt] {\small Foto 2}
-    \end{minipage}\hfill
-    \begin{minipage}[b]{0.3\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Imagenes/Medicion.jpg}
-        \\[2pt] {\small Foto 3}
-    \end{minipage}
-    \caption{Fotos del equipo en el laboratorio}
-    \label{fig:enElLabo}
-\end{figure}
+
 \subsection{Filtros Pasabajos}
 
 La señal a muestrear que limita el diseño de los filtros corresponde 
@@ -164,3 +143,36 @@ En cuanto a la llave analógica CD4016, se emplea para controlar de forma precis
 En conjunto, la configuración implementada permite obtener un muestreo confiable de la señal de entrada,
  con errores acotados tanto en la fase de adquisición como en la de retención, asegurando un desempeño 
  adecuado para las condiciones de frecuencia y precisión requeridas.
+
+
+
+\subsection{Placa en Uso}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/placaFrente.jpg}
+        \\[2pt] {\small Placa Frente}
+    \end{minipage}\hfill
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/PlacaBottom.jpg}
+        \\[2pt] {\small Placa Dorso}
+    \end{minipage}\hfill
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Medicion.jpg}
+        \\[2pt] {\small Señal recuperada (Ch1:Entrada, Ch2:Salida)}
+        \label{osciloscopio}
+    \end{minipage}
+    \caption{Fotos del equipo en el laboratorio}
+    \label{fig:enElLabo}
+\end{figure}
+En la experiencia final en laboratorio se utilizó la placa de las figuras \ref{fig:enElLabo} (Foto 1 y Foto 2), 
+sin embargo es importante recalcar que no todas las etapas de los filtros pasabajos se encontraban funcionando 
+correctamente, por lo tanto se decidió puentear dichas etapas.
+Además, el oscilador implementado, debido a las limitaciones de los componentes y de la tecnología de fabricación
+utilizada, presentaba un período transitorio considerable que dificultaba la obtención de las señales de mayor frecuencia.
+Es importante recalcar que funcionaban correctamente las etapas de Sample \& Hold y la llave analógica, y era capaz 
+de recuperar las señales muestradas con un nivel de ruido notorio pero aceptable. De requerirse mayor precisión, se podría
+utilizar el filtro de ``Averaging'' del osciloscopio como se observa en la Fig. \ref{fig:enElLabo}.
