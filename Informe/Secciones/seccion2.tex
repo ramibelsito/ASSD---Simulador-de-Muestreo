@@ -8,7 +8,28 @@ Esquematico del circuito a implementar:
 \end{figure}
 Esta implementación del circuito de muestreo y recuperación de la señal analógica nos permite analizar 
 los efectos de las distintas etapas del proceso de muestreo y su importancia en el sampleo de la señal.
-
+% 2. Varias horizontales
+\subsubsection{Fotos de la Placa en Uso}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/placaFrente.jpg}
+        \\[2pt] {\small Foto 1}
+    \end{minipage}\hfill
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/PlacaBottom.jpg}
+        \\[2pt] {\small Foto 2}
+    \end{minipage}\hfill
+    \begin{minipage}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Medicion.jpg}
+        \\[2pt] {\small Foto 3}
+    \end{minipage}
+    \caption{Fotos del equipo en el laboratorio}
+    \label{fig:enElLabo}
+\end{figure}
 \subsection{Filtros Pasabajos}
 
 La señal a muestrear que limita el diseño de los filtros corresponde 
@@ -110,3 +131,35 @@ En resumen, el diseño cumple con los requerimientos planteados: generar una se�
 
 \subsection{Obtención de Señal Muestreada}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Imagenes/esquematico_gral.png}
+    \caption{Simulación del Circuito de Muestreo y Retención}
+    \label{fig:Simulacion_Sample_and_Hold}
+\end{figure}
+
+El circuito implementado emplea un integrado LF398 configurado como \textit{sample and hold}, en conjunto 
+con una llave analógica (CD4016), con el objetivo de muestrear y posteriormente retener la señal de entrada 
+durante un intervalo de tiempo definido. De esta manera, la señal analógica puede ser tomada en instantes 
+discretos, procesada y posteriormente recuperada a través del filtrado.
+
+La elección del capacitor de retención (\(C_H\)) en el \textit{sample and hold} resulta crítica, dado que
+ determina el compromiso entre tiempo de adquisición y estabilidad de la tensión retenida. En este caso 
+ se seleccionó un valor de \(560\,\text{pF}\), que permite un tiempo de adquisición reducido gracias a la
+  constante de tiempo \(R_{on} \cdot C_H\) asociada al transistor de muestreo interno, garantizando que el
+   condensador alcance rápidamente el nivel de la señal. Al mismo tiempo, este valor asegura una tasa de 
+   caída (\textit{droop rate}) suficientemente baja durante el intervalo de retención, minimizando los 
+   errores introducidos por corrientes de fuga. Para corrientes típicas del orden de nanampers, la 
+   pendiente de descarga resulta del orden de decenas de milivolts por milisegundo, lo cual es adecuado
+    para las frecuencias de operación consideradas.
+
+En cuanto a la llave analógica CD4016, se emplea para controlar de forma precisa el instante de muestreo
+ y transferencia de la señal. La selección de este dispositivo se justifica por su simplicidad de control
+  y su capacidad de operar adecuadamente en el rango de tensiones utilizado en el circuito. La resistencia
+   de conducción (\(R_{on}\)) del CD4016, junto con el valor del capacitor de retención, también influye 
+   en el tiempo de establecimiento de la muestra, siendo la elección del capacitor coherente con las 
+   limitaciones impuestas por el interruptor.
+
+En conjunto, la configuración implementada permite obtener un muestreo confiable de la señal de entrada,
+ con errores acotados tanto en la fase de adquisición como en la de retención, asegurando un desempeño 
+ adecuado para las condiciones de frecuencia y precisión requeridas.

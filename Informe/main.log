@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.23)  24 SEP 2025 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.23)  24 SEP 2025 22:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1167,7 +1167,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 19.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 20.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./main.aux
@@ -1176,24 +1176,24 @@ LaTeX Info: Redefining \% on input line 28.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1229,8 +1229,8 @@ LaTeX Font Info:    ... okay on input line 19.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
@@ -1244,8 +1244,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 19.
-Package biblatex Info: Reference segment=0 on input line 19.
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -1253,7 +1253,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring OFF on input line 20.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1263,9 +1263,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count500
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count501
@@ -1286,13 +1286,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count507
-LaTeX Info: Redefining \microtypecontext on input line 19.
-Package microtype Info: Applying patch `item' on input line 19.
-Package microtype Info: Applying patch `toc' on input line 19.
-Package microtype Info: Applying patch `eqnum' on input line 19.
+LaTeX Info: Redefining \microtypecontext on input line 20.
+Package microtype Info: Applying patch `item' on input line 20.
+Package microtype Info: Applying patch `toc' on input line 20.
+Package microtype Info: Applying patch `eqnum' on input line 20.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 19.
+Package microtype Warning: Unable to apply patch `footnote' on input line 20.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1300,7 +1300,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 19.
+LaTeX Info: Redefining \showhyphens on input line 20.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1403,7 +1403,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 \newpage
+l.38 \newpage
               [1] (./Secciones/introducción.tex) (./Secciones/seccion1.tex
 File: Imagenes/LOGO ITBA.png Graphic file (type png)
 <use Imagenes/LOGO ITBA.png>
@@ -1448,14 +1448,29 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
 [3]) (./Secciones/seccion2.tex
-<Imagenes/Circuito_Muestreo.png, id=108, 895.09406pt x 274.77657pt>
+<Imagenes/Circuito_Muestreo.png, id=110, 895.09406pt x 274.77657pt>
 File: Imagenes/Circuito_Muestreo.png Graphic file (type png)
 <use Imagenes/Circuito_Muestreo.png>
 Package pdftex.def Info: Imagenes/Circuito_Muestreo.png  used on input line 5.
 (pdftex.def)             Requested size: 386.95897pt x 118.78891pt.
+<Imagenes/placaFrente.jpg, id=111, 5486.4975pt x 5553.74875pt>
+File: Imagenes/placaFrente.jpg Graphic file (type jpg)
+<use Imagenes/placaFrente.jpg>
+Package pdftex.def Info: Imagenes/placaFrente.jpg  used on input line 17.
+(pdftex.def)             Requested size: 145.11053pt x 146.86009pt.
+<Imagenes/PlacaBottom.jpg, id=112, 5736.43124pt x 5722.37875pt>
+File: Imagenes/PlacaBottom.jpg Graphic file (type jpg)
+<use Imagenes/PlacaBottom.jpg>
+Package pdftex.def Info: Imagenes/PlacaBottom.jpg  used on input line 22.
+(pdftex.def)             Requested size: 145.11053pt x 144.6832pt.
+<Imagenes/Medicion.jpg, id=113, 3011.25pt x 2409.0pt>
+File: Imagenes/Medicion.jpg Graphic file (type jpg)
+<use Imagenes/Medicion.jpg>
+Package pdftex.def Info: Imagenes/Medicion.jpg  used on input line 27.
+(pdftex.def)             Requested size: 145.11053pt x 116.08281pt.
 File: Imagenes/LOGO ITBA.png Graphic file (type png)
 <use Imagenes/LOGO ITBA.png>
-Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 18.
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 33.
 (pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
 
 
@@ -1468,7 +1483,7 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 [4 <./Imagenes/Circuito_Muestreo.png>]
 File: Imagenes/LOGO ITBA.png Graphic file (type png)
 <use Imagenes/LOGO ITBA.png>
-Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 88.
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 83.
 (pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
 
 
@@ -1478,16 +1493,15 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
-[5]
-<Imagenes/esquematico_oscilador.png, id=122, 1515.41156pt x 673.76718pt>
+[5 <./Imagenes/placaFrente.jpg> <./Imagenes/PlacaBottom.jpg> <./Imagenes/Medicion.jpg>]
+<Imagenes/esquematico_oscilador.png, id=128, 1515.41156pt x 673.76718pt>
 File: Imagenes/esquematico_oscilador.png Graphic file (type png)
 <use Imagenes/esquematico_oscilador.png>
-Package pdftex.def Info: Imagenes/esquematico_oscilador.png  used on input line 106.
+Package pdftex.def Info: Imagenes/esquematico_oscilador.png  used on input line 127.
 (pdftex.def)             Requested size: 386.95897pt x 172.03967pt.
-) (./Secciones/seccion3.tex) (./Secciones/seccion4.tex
 File: Imagenes/LOGO ITBA.png Graphic file (type png)
 <use Imagenes/LOGO ITBA.png>
-Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 6.
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 131.
 (pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
 
 
@@ -1497,23 +1511,59 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
-[6 <./Imagenes/esquematico_oscilador.png>]
-<Imagenes/gui_beating.png, id=129, 1245.15187pt x 688.07062pt>
+[6]
+<Imagenes/esquematico_gral.png, id=134, 1778.14313pt x 638.385pt>
+File: Imagenes/esquematico_gral.png Graphic file (type png)
+<use Imagenes/esquematico_gral.png>
+Package pdftex.def Info: Imagenes/esquematico_gral.png  used on input line 136.
+(pdftex.def)             Requested size: 386.95897pt x 138.92554pt.
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 162.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[7 <./Imagenes/esquematico_oscilador.png> <./Imagenes/esquematico_gral.png>]) (./Secciones/seccion3.tex) (./Secciones/seccion4.tex
+<Imagenes/gui_beating.png, id=142, 1245.15187pt x 688.07062pt>
 File: Imagenes/gui_beating.png Graphic file (type png)
 <use Imagenes/gui_beating.png>
 Package pdftex.def Info: Imagenes/gui_beating.png  used on input line 20.
 (pdftex.def)             Requested size: 386.95897pt x 213.83514pt.
-) (./Secciones/conclusion.tex) (./Secciones/anexo.tex)
 
-LaTeX Warning: Empty bibliography on input line 74.
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
+ []
+
+) (./Secciones/conclusion.tex)
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 75.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[8 <./Imagenes/gui_beating.png>] (./Preambulo/bibliografia.bib
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 8.
+)
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 70.
 See the caption package documentation for explanation.
 
 File: Imagenes/LOGO ITBA.png Graphic file (type png)
 <use Imagenes/LOGO ITBA.png>
-Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 81.
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 84.
 (pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
 
 Package fancyhdr Warning: \headheight is too small (25.0pt): 
@@ -1522,7 +1572,9 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
-[7 <./Imagenes/gui_beating.png>] (./main.aux
+[9
+
+] (./main.aux
 LaTeX Info: Redefining \sptext on input line 28.
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
@@ -1532,18 +1584,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53222 strings out of 478287
- 1155749 string characters out of 5849289
- 2211743 words of memory out of 5000000
- 70472 multiletter control sequences out of 15000+600000
- 531381 words of font info for 129 fonts, out of 8000000 for 9000
+ 53292 strings out of 478287
+ 1157027 string characters out of 5849289
+ 2211918 words of memory out of 5000000
+ 70505 multiletter control sequences out of 15000+600000
+ 536128 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,16n,106p,1193b,2036s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (9 pages, 641894 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (11 pages, 8725488 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
- 35513 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 249 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 38101 words of extra memory for PDF output out of 42996 (max. 10000000)
 

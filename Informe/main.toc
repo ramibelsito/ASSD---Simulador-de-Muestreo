@@ -11,10 +11,11 @@
 \contentsline {subsubsection}{\numberline {2.3.2}Filtro de Reconstrucción}{4}{subsubsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.4}Llave Analógica}{4}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Implementación}{4}{section.3}%
+\contentsline {subsubsection}{\numberline {3.0.1}Fotos de la Placa en Uso}{5}{subsubsection.3.0.1}%
 \contentsline {subsection}{\numberline {3.1}Filtros Pasabajos}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Oscilador}{6}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Obtención de Señal Muestreada}{7}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Simulaciones}{7}{section.4}%
-\contentsline {section}{\numberline {5}Simulaciones en Python}{7}{section.5}%
-\contentsline {section}{\numberline {6}Conclusión}{7}{section.6}%
-\contentsline {section}{\numberline {7}Anexo}{7}{section.7}%
+\contentsline {section}{\numberline {4}Simulaciones}{8}{section.4}%
+\contentsline {section}{\numberline {5}Simulaciones en Python}{8}{section.5}%
+\contentsline {section}{\numberline {6}Conclusión}{8}{section.6}%
+\contentsline {section}{Bibliografia}{9}{Item.1}%

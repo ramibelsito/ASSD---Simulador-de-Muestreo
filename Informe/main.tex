@@ -1,6 +1,7 @@
 \documentclass[11pt]{article}
 \input{Preambulo/paquetes}
 
+
 % ------- Creacion de la funcion subsubsubsection -----%
 \newcounter{subsubsubsection}[subsubsection]
 \renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
@@ -67,12 +68,14 @@
 \input{Secciones/conclusion.tex}
 
 %---------------- Anexo ----------------%
-\section{Anexo}
-\input{Secciones/anexo}
+%\section{Anexo}
+%\input{Secciones/anexo}
 
-%---------------- Bibliografía ----------------%
-\printbibliography
-
+%---------------- BIBLIOGRAFIA ----------------%
+\clearpage
+\newpage
+\input{Preambulo/bibliografia.bib} %agrega la bibliografía
+\addcontentsline{toc}{section}{Bibliografia} %agrega la sección bibliografía en el indice
 %---------------- Componentes ----------------%
 %\newpage
 %\section{Templates}
