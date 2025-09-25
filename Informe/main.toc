@@ -16,6 +16,10 @@
 \contentsline {subsection}{\numberline {3.3}Obtención de Señal Muestreada}{7}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Placa en Uso}{8}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Simulaciones}{8}{section.4}%
-\contentsline {section}{\numberline {5}Simulaciones en Python}{8}{section.5}%
-\contentsline {section}{\numberline {6}Conclusión}{9}{section.6}%
-\contentsline {section}{Bibliografia}{10}{Item.1}%
+\contentsline {subsection}{\numberline {4.1}Filtro Low-Pass}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Oscilador}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Simulaci\'on de Muestro Natural}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Simulaci\'on de Muestro Instantaneo}{13}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Simulaciones en Python}{14}{section.5}%
+\contentsline {section}{\numberline {6}Conclusión}{15}{section.6}%
+\contentsline {section}{Bibliografia}{16}{Item.1}%

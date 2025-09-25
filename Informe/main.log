@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.23)  24 SEP 2025 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.23)  24 SEP 2025 23:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1448,7 +1448,7 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
 [3]) (./Secciones/seccion2.tex
-<Imagenes/Circuito_Muestreo.png, id=110, 895.09406pt x 274.77657pt>
+<Imagenes/Circuito_Muestreo.png, id=118, 895.09406pt x 274.77657pt>
 File: Imagenes/Circuito_Muestreo.png Graphic file (type png)
 <use Imagenes/Circuito_Muestreo.png>
 Package pdftex.def Info: Imagenes/Circuito_Muestreo.png  used on input line 5.
@@ -1479,12 +1479,12 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
 [5]
-<Imagenes/esquematico_oscilador.png, id=124, 1515.41156pt x 673.76718pt>
+<Imagenes/esquematico_oscilador.png, id=132, 1515.41156pt x 673.76718pt>
 File: Imagenes/esquematico_oscilador.png Graphic file (type png)
 <use Imagenes/esquematico_oscilador.png>
 Package pdftex.def Info: Imagenes/esquematico_oscilador.png  used on input line 106.
 (pdftex.def)             Requested size: 386.95897pt x 172.03967pt.
-<Imagenes/esquematico_gral.png, id=125, 1778.14313pt x 638.385pt>
+<Imagenes/esquematico_gral.png, id=133, 1778.14313pt x 638.385pt>
 File: Imagenes/esquematico_gral.png Graphic file (type png)
 <use Imagenes/esquematico_gral.png>
 Package pdftex.def Info: Imagenes/esquematico_gral.png  used on input line 116.
@@ -1502,17 +1502,17 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
 [6 <./Imagenes/esquematico_oscilador.png>]
-<Imagenes/placaFrente.jpg, id=132, 5486.4975pt x 5553.74875pt>
+<Imagenes/placaFrente.jpg, id=140, 5486.4975pt x 5553.74875pt>
 File: Imagenes/placaFrente.jpg Graphic file (type jpg)
 <use Imagenes/placaFrente.jpg>
 Package pdftex.def Info: Imagenes/placaFrente.jpg  used on input line 154.
 (pdftex.def)             Requested size: 145.11053pt x 146.86009pt.
-<Imagenes/PlacaBottom.jpg, id=133, 5736.43124pt x 5722.37875pt>
+<Imagenes/PlacaBottom.jpg, id=141, 5736.43124pt x 5722.37875pt>
 File: Imagenes/PlacaBottom.jpg Graphic file (type jpg)
 <use Imagenes/PlacaBottom.jpg>
 Package pdftex.def Info: Imagenes/PlacaBottom.jpg  used on input line 159.
 (pdftex.def)             Requested size: 145.11053pt x 144.6832pt.
-<Imagenes/Medicion.jpg, id=134, 3011.25pt x 2409.0pt>
+<Imagenes/Medicion.jpg, id=142, 3011.25pt x 2409.0pt>
 File: Imagenes/Medicion.jpg Graphic file (type jpg)
 <use Imagenes/Medicion.jpg>
 Package pdftex.def Info: Imagenes/Medicion.jpg  used on input line 164.
@@ -1529,8 +1529,147 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
-[7 <./Imagenes/esquematico_gral.png>]) (./Secciones/seccion3.tex) (./Secciones/seccion4.tex
-<Imagenes/gui_beating.png, id=143, 1245.15187pt x 688.07062pt>
+[7 <./Imagenes/esquematico_gral.png>]) (./Secciones/seccion3.tex
+<Imagenes Nacho/EsquemaLatex.png, id=151, 1082.54437pt x 542.025pt>
+File: Imagenes Nacho/EsquemaLatex.png Graphic file (type png)
+<use Imagenes Nacho/EsquemaLatex.png>
+Package pdftex.def Info: Imagenes Nacho/EsquemaLatex.png  used on input line 3.
+(pdftex.def)             Requested size: 435.32422pt x 217.96404pt.
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 10.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[8 <./Imagenes/placaFrente.jpg> <./Imagenes/PlacaBottom.jpg> <./Imagenes/Medicion.jpg> <./Imagenes Nacho/EsquemaLatex.png>]
+<Imagenes Nacho/EsquemaLatexLowPass.png, id=161, 1082.54437pt x 558.96329pt>
+File: Imagenes Nacho/EsquemaLatexLowPass.png Graphic file (type png)
+<use Imagenes Nacho/EsquemaLatexLowPass.png>
+Package pdftex.def Info: Imagenes Nacho/EsquemaLatexLowPass.png  used on input line 16.
+(pdftex.def)             Requested size: 386.95897pt x 199.80226pt.
+<Imagenes Nacho/Python.png, id=162, 462.528pt x 346.896pt>
+File: Imagenes Nacho/Python.png Graphic file (type png)
+<use Imagenes Nacho/Python.png>
+Package pdftex.def Info: Imagenes Nacho/Python.png  used on input line 23.
+(pdftex.def)             Requested size: 386.95897pt x 290.23143pt.
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 27.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[9 <./Imagenes Nacho/EsquemaLatexLowPass.png>]
+<Imagenes Nacho/LowPassFitler.png, id=169, 1082.54437pt x 542.025pt>
+File: Imagenes Nacho/LowPassFitler.png Graphic file (type png)
+<use Imagenes Nacho/LowPassFitler.png>
+Package pdftex.def Info: Imagenes Nacho/LowPassFitler.png  used on input line 30.
+(pdftex.def)             Requested size: 386.95897pt x 193.74765pt.
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 40.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[10 <./Imagenes Nacho/Python.png> <./Imagenes Nacho/LowPassFitler.png>]
+<Imagenes Nacho/OsciladorEsquema.png, id=179, 1082.54437pt x 542.025pt>
+File: Imagenes Nacho/OsciladorEsquema.png Graphic file (type png)
+<use Imagenes Nacho/OsciladorEsquema.png>
+Package pdftex.def Info: Imagenes Nacho/OsciladorEsquema.png  used on input line 43.
+(pdftex.def)             Requested size: 386.95897pt x 193.74765pt.
+<Imagenes Nacho/Oscilador.png, id=180, 1082.54437pt x 542.025pt>
+File: Imagenes Nacho/Oscilador.png Graphic file (type png)
+<use Imagenes Nacho/Oscilador.png>
+Package pdftex.def Info: Imagenes Nacho/Oscilador.png  used on input line 50.
+(pdftex.def)             Requested size: 386.95897pt x 193.74765pt.
+<Imagenes Nacho/Natural/Natural-Vi-Sqr15k.png, id=181, 1082.54437pt x 542.025pt>
+File: Imagenes Nacho/Natural/Natural-Vi-Sqr15k.png Graphic file (type png)
+<use Imagenes Nacho/Natural/Natural-Vi-Sqr15k.png>
+Package pdftex.def Info: Imagenes Nacho/Natural/Natural-Vi-Sqr15k.png  used on input line 60.
+(pdftex.def)             Requested size: 386.95897pt x 193.74765pt.
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 64.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[11 <./Imagenes Nacho/OsciladorEsquema.png> <./Imagenes Nacho/Oscilador.png>]
+<Imagenes Nacho/Natural/Natural-Vi-Sqr15k-out-LLave.png, id=191, 1082.54437pt x 542.025pt>
+File: Imagenes Nacho/Natural/Natural-Vi-Sqr15k-out-LLave.png Graphic file (type png)
+<use Imagenes Nacho/Natural/Natural-Vi-Sqr15k-out-LLave.png>
+Package pdftex.def Info: Imagenes Nacho/Natural/Natural-Vi-Sqr15k-out-LLave.png  used on input line 67.
+(pdftex.def)             Requested size: 386.95897pt x 193.74765pt.
+<Imagenes Nacho/Natural/Natural-Vi-Sqr15k-outFFT.png, id=192, 1082.54437pt x 542.025pt>
+File: Imagenes Nacho/Natural/Natural-Vi-Sqr15k-outFFT.png Graphic file (type png)
+<use Imagenes Nacho/Natural/Natural-Vi-Sqr15k-outFFT.png>
+Package pdftex.def Info: Imagenes Nacho/Natural/Natural-Vi-Sqr15k-outFFT.png  used on input line 74.
+(pdftex.def)             Requested size: 386.95897pt x 193.74765pt.
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 78.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[12 <./Imagenes Nacho/Natural/Natural-Vi-Sqr15k.png> <./Imagenes Nacho/Natural/Natural-Vi-Sqr15k-out-LLave.png>]
+<Imagenes Nacho/Instantaneo/Vi-Vo.png, id=201, 1082.54437pt x 542.025pt>
+File: Imagenes Nacho/Instantaneo/Vi-Vo.png Graphic file (type png)
+<use Imagenes Nacho/Instantaneo/Vi-Vo.png>
+Package pdftex.def Info: Imagenes Nacho/Instantaneo/Vi-Vo.png  used on input line 85.
+(pdftex.def)             Requested size: 386.95897pt x 193.74765pt.
+<Imagenes Nacho/Instantaneo/out-llave.png, id=202, 1082.54437pt x 542.025pt>
+File: Imagenes Nacho/Instantaneo/out-llave.png Graphic file (type png)
+<use Imagenes Nacho/Instantaneo/out-llave.png>
+Package pdftex.def Info: Imagenes Nacho/Instantaneo/out-llave.png  used on input line 92.
+(pdftex.def)             Requested size: 386.95897pt x 193.74765pt.
+File: Imagenes/LOGO ITBA.png Graphic file (type png)
+<use Imagenes/LOGO ITBA.png>
+Package pdftex.def Info: Imagenes/LOGO ITBA.png  used on input line 96.
+(pdftex.def)             Requested size: 47.02557pt x 23.09113pt.
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 27.17116pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.17116pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
+
+[13 <./Imagenes Nacho/Natural/Natural-Vi-Sqr15k-outFFT.png> <./Imagenes Nacho/Instantaneo/Vi-Vo.png>]
+<Imagenes Nacho/Instantaneo/Vo-FFT.png, id=211, 1082.54437pt x 542.025pt>
+File: Imagenes Nacho/Instantaneo/Vo-FFT.png Graphic file (type png)
+<use Imagenes Nacho/Instantaneo/Vo-FFT.png>
+Package pdftex.def Info: Imagenes Nacho/Instantaneo/Vo-FFT.png  used on input line 100.
+(pdftex.def)             Requested size: 386.95897pt x 193.74765pt.
+) (./Secciones/seccion4.tex
+<Imagenes/gui_beating.png, id=212, 1245.15187pt x 688.07062pt>
 File: Imagenes/gui_beating.png Graphic file (type png)
 <use Imagenes/gui_beating.png>
 Package pdftex.def Info: Imagenes/gui_beating.png  used on input line 20.
@@ -1547,7 +1686,7 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
-[8 <./Imagenes/placaFrente.jpg> <./Imagenes/PlacaBottom.jpg> <./Imagenes/Medicion.jpg>]
+[14 <./Imagenes Nacho/Instantaneo/out-llave.png> <./Imagenes Nacho/Instantaneo/Vo-FFT.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
  []
@@ -1565,7 +1704,7 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
-[9 <./Imagenes/gui_beating.png>] (./Preambulo/bibliografia.bib
+[15 <./Imagenes/gui_beating.png>] (./Preambulo/bibliografia.bib
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.30756pt on input line 8.
 )
@@ -1584,7 +1723,7 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.17116pt}.
 
-[10
+[16
 
 ] (./main.aux
 LaTeX Info: Redefining \sptext on input line 28.
@@ -1604,18 +1743,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53298 strings out of 478287
- 1157085 string characters out of 5849289
- 2211995 words of memory out of 5000000
- 70506 multiletter control sequences out of 15000+600000
- 536294 words of font info for 146 fonts, out of 8000000 for 9000
+ 53442 strings out of 478287
+ 1161193 string characters out of 5849289
+ 2211755 words of memory out of 5000000
+ 70601 multiletter control sequences out of 15000+600000
+ 536792 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,16n,106p,1193b,2036s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (12 pages, 8727472 bytes).
+Output written on main.pdf (18 pages, 10077882 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 500000)
- 38101 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 38193 words of extra memory for PDF output out of 42996 (max. 10000000)
 
