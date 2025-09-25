@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1758755016 "main.bcf" "main.bbl" "main" 1758755020
-  "main.bcf" 1758755020 106347 f20ffb784ba407f5e51fc6d49021ce74 "pdflatex"
+["biber main"] 1758757764 "main.bcf" "main.bbl" "main" 1758758645
+  "main.bcf" 1758758644 106347 f20ffb784ba407f5e51fc6d49021ce74 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1758755019 "/home/rami/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758755020
+["pdflatex"] 1758758642 "/home/rami/ASSD---Simulador-de-Muestreo/Informe/main.tex" "main.pdf" "main" 1758758645
   "/etc/texmf/web2c/texmf.cnf" 1695304429 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/rami/ASSD---Simulador-de-Muestreo/Informe/main.tex" 1758754539 2404 9e962c27bb47c64e8b0393f826af05e1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -307,6 +307,7 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1713892938 2799830 dd1064345d24d651deb48cdeb11abbcb ""
   "Imagenes/Circuito_Muestreo.png" 1758754376 179661 632faa2767b9df96d30d7683ffcc29e1 ""
   "Imagenes/LOGO ITBA.png" 1758752486 90169 637f5917a67b69fc1ccd7ffe278dc788 ""
+  "Imagenes/esquematico_oscilador.png" 1758758630 34462 9cb3aee42f600406a82350a53b19ef14 ""
   "Imagenes/gui_beating.png" 1758752486 158353 f39873bff1137c4481a5ac2f2a172458 ""
   "Preambulo/Variables.tex" 1758752486 1115 70ffda6121b5911cd2fc9fa8e922af67 ""
   "Preambulo/paquetes.tex" 1758752486 5721 650c4d59bc3ef556d16f4dfc50da2a96 ""
@@ -315,14 +316,14 @@
   "Secciones/conclusion.tex" 1758752486 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/introducción.tex" 1758752486 661 93b1dfffcea348ec6bd76f36f1f9aad2 ""
   "Secciones/seccion1.tex" 1758754118 7643 f59bf652016ed75255f5392f0ebb3b2c ""
-  "Secciones/seccion2.tex" 1758755014 566 d4eab72132af14973bd004d77a201874 ""
+  "Secciones/seccion2.tex" 1758758642 2095 d8cf974411315e51073ab59e0a600cf1 ""
   "Secciones/seccion3.tex" 1758752486 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Secciones/seccion4.tex" 1758752486 1502 901a5e38c6d04e59c23ae6028c90bf08 ""
-  "main.aux" 1758755020 9260 ce5675cad2c0a928b9599d6d4e793eec "pdflatex"
-  "main.bbl" 1758755017 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.run.xml" 1758755020 2414 d1b2afdee5e2e8eb5111a4e16fda2e2c "pdflatex"
+  "main.aux" 1758758644 9512 c524700d5d9e3a30ee4f9c297137519d "pdflatex"
+  "main.bbl" 1758757764 466 ee04f40f768daeed26442158e95aba61 "biber main"
+  "main.run.xml" 1758758644 2414 d1b2afdee5e2e8eb5111a4e16fda2e2c "pdflatex"
   "main.tex" 1758754539 2404 9e962c27bb47c64e8b0393f826af05e1 ""
-  "main.toc" 1758755020 1612 ddbc7c62725e02da5db4ed437ddde685 "pdflatex"
+  "main.toc" 1758758644 1612 1f31b5b6eb4b9ca871976b619e98d4ba "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

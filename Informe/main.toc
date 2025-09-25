@@ -16,5 +16,5 @@
 \contentsline {subsection}{\numberline {3.3}Obtención de Señal Muestreada}{5}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Simulaciones}{5}{section.4}%
 \contentsline {section}{\numberline {5}Simulaciones en Python}{5}{section.5}%
-\contentsline {section}{\numberline {6}Conclusión}{5}{section.6}%
-\contentsline {section}{\numberline {7}Anexo}{5}{section.7}%
+\contentsline {section}{\numberline {6}Conclusión}{6}{section.6}%
+\contentsline {section}{\numberline {7}Anexo}{6}{section.7}%
